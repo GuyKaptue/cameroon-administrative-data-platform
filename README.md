@@ -8,7 +8,8 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.35+-red)](https://streamlit.io)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-#### [🌍 Launch Interactive Dashboard](https://cameroon-appistrative-data-platform-kr49wgnoumxmm8vfqr4gpv.streamlit.app/)
+### [![Streamlit](https://img.shields.io/badge/Streamlit-1.35+-red)](https://cameroon-appistrative-data-platform-kr49wgnoumxmm8vfqr4gpv.streamlit.app/)
+
 *Click above to explore the full dashboard with 10 analytical tabs, hierarchical filters, and interactive maps*
 
 [![Full Documentation](https://img.shields.io/badge/Full_Technical_Report-PDF-blue)](docs/technical_report.pdf)
