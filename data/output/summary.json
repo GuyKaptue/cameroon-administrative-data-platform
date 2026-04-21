@@ -1,0 +1,26 @@
+{
+  "total_villages": 13436,
+  "total_regions": 10,
+  "total_departments": 58,
+  "total_arrondissements": 613,
+  "unique_postal_codes": 611,
+  "population_by_year": {
+    "2005": 17074687,
+    "2010": 19668083,
+    "2015": 22763212,
+    "2020": 26210538,
+    "2025": 29879504
+  },
+  "population_by_region": {
+    "OUEST": 3715536,
+    "LITTORAL": 8253745,
+    "NORD-OUEST": 2324619,
+    "SUD": 1069833,
+    "SUD-OUEST": 2227616,
+    "EXTREME-NORD": 4891814,
+    "CENTRE": 2613141,
+    "ADAMAOUA": 921588,
+    "NORD": 2899355,
+    "EST": 962257
+  }
+}

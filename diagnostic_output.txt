@@ -1,0 +1,1840 @@
+📁 Using default project root: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform
+======================================================================
+✅ Configuration Loaded Successfully!
+======================================================================
+📁 Project root: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform
+📁 Data directory: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data
+📁 External data: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external
+📁 Output directory: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/output
+======================================================================
+
+📊 POPULATION DATA SUMMARY:
+   • 2005 Arrondissements: 361
+   • 2010 Arrondissements: 323
+   • UN 2005 Population: 17,074,594
+   • UN 2010 Population: 19,668,066
+   • UN 2025 Population: 29,879,337
+======================================================================
+✅ Using config from module import
+📁 Using default project root: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform
+======================================================================
+✅ Configuration Loaded Successfully!
+======================================================================
+📁 Project root: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform
+📁 Data directory: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data
+📁 External data: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external
+📁 Output directory: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/output
+======================================================================
+
+📊 POPULATION DATA SUMMARY:
+   • 2005 Arrondissements: 361
+   • 2010 Arrondissements: 323
+   • UN 2005 Population: 17,074,594
+   • UN 2010 Population: 19,668,066
+   • UN 2025 Population: 29,879,337
+======================================================================
+✅ Using config from module import
+
+====================================================================================================
+🔍 CAMEROON DATA COMPLETE DIAGNOSTIC
+====================================================================================================
+
+📁 1. Loading GeoBoundaries...
+
+================================================================================
+📍 LOADING GEOSPATIAL DATA
+================================================================================
+
+------------------------------------------------------------
+📁 STEP 1: Loading ADM1 - Regions
+------------------------------------------------------------
+🔍 Looking for ADM1 file at: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external/geoBoundaries-CMR-ADM1.geojson
+✅ ADM1 file found!
+📏 File size: 163.81 KB
+📊 Raw ADM1 GeoJSON loaded with 10 features
+
+📋 Raw ADM1 columns: ['shapeName', 'shapeISO', 'shapeID', 'shapeGroup', 'shapeType', 'geometry']
+
+🏷️ Raw shapeName values:
+   1. 'Centre'
+   2. 'Far North'
+   3. 'North'
+   4. 'North-West'
+   5. 'Adamaoua'
+   6. 'East'
+   7. 'South'
+   8. 'South-West'
+   9. 'West'
+   10. 'Littoral'
+
+✅ Processed ADM1: 10 regions
+
+📍 REGIONS with centroids:
+   1. CENTRE               | Lat: 4.6705, Lon: 11.8262
+   2. FAR NORTH            | Lat: 11.0737, Lon: 14.5193
+   3. NORTH                | Lat: 8.4589, Lon: 13.9307
+   4. NORTH-WEST           | Lat: 6.3738, Lon: 10.3716
+   5. ADAMAOUA             | Lat: 6.8257, Lon: 13.1332
+   6. EAST                 | Lat: 3.8034, Lon: 14.2105
+   7. SOUTH                | Lat: 2.7617, Lon: 11.5629
+   8. SOUTH-WEST           | Lat: 5.2040, Lon: 9.2948
+   9. WEST                 | Lat: 5.5144, Lon: 10.6512
+   10. LITTORAL             | Lat: 4.2704, Lon: 10.1305
+
+------------------------------------------------------------
+📁 STEP 2: Loading ADM2 - Departments
+------------------------------------------------------------
+🔍 Looking for ADM2 file at: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external/geoBoundaries-CMR-ADM2.geojson
+✅ ADM2 file found!
+📏 File size: 225.56 KB
+📊 Raw ADM2 GeoJSON loaded with 60 features
+
+📋 Raw ADM2 columns: ['shapeName', 'shapeISO', 'shapeID', 'shapeGroup', 'shapeType', 'geometry']
+
+🏷️ Raw shapeName values (first 15):
+   1. 'Djerem'
+   2. 'Faro-et-Deo'
+   3. 'Mayo-Banyo'
+   4. 'Mbere'
+   5. 'Vina'
+   6. 'Haute-Sanaga'
+   7. 'Lekie'
+   8. 'Mbam-et-Inoubou'
+   9. 'Mbam-et-Kim'
+   10. 'Mefou-et-Afamba'
+   11. 'Mefou-et-Akono'
+   12. 'Mfoundi'
+   13. 'Nyong-et-Kelle'
+   14. 'Nyong-et-Mfoumou'
+   15. 'Nyong-et-So'
+   ... and 45 more
+
+✅ Processed ADM2: 60 departments
+
+📍 DEPARTMENTS with centroids (first 20):
+   1. DJEREM                              | Lat: 6.4592, Lon: 12.7224
+   2. FARO-ET-DEO                         | Lat: 7.4459, Lon: 12.4611
+   3. MAYO-BANYO                          | Lat: 6.5699, Lon: 11.7290
+   4. MBERE                               | Lat: 6.4733, Lon: 14.2128
+   5. VINA                                | Lat: 7.1697, Lon: 13.6693
+   6. HAUTE-SANAGA                        | Lat: 4.6778, Lon: 12.5127
+   7. LEKIE                               | Lat: 4.1496, Lon: 11.4103
+   8. MBAM-ET-INOUBOU                     | Lat: 4.7312, Lon: 10.9660
+   9. MBAM-ET-KIM                         | Lat: 5.4288, Lon: 11.9900
+   10. MEFOU-ET-AFAMBA                     | Lat: 3.9590, Lon: 11.8050
+   11. MEFOU-ET-AKONO                      | Lat: 3.6085, Lon: 11.3664
+   12. MFOUNDI                             | Lat: 3.8085, Lon: 11.5128
+   13. NYONG-ET-KELLE                      | Lat: 3.7142, Lon: 10.8186
+   14. NYONG-ET-MFOUMOU                    | Lat: 3.8596, Lon: 12.3350
+   15. NYONG-ET-SO                         | Lat: 3.4036, Lon: 11.5476
+   16. BOUMBA-ET-NGOKO                     | Lat: 2.7926, Lon: 15.2525
+   17. HAUT-NYONG                          | Lat: 3.3378, Lon: 13.5841
+   18. KADEI                               | Lat: 4.2695, Lon: 14.3860
+   19. LOM-ET-DJEREM                       | Lat: 5.3256, Lon: 13.7653
+   20. DIAMARE                             | Lat: 10.6670, Lon: 14.3591
+   ... and 40 more departments
+
+------------------------------------------------------------
+📁 STEP 3: Loading ADM3 - Arrondissements
+------------------------------------------------------------
+🔍 Looking for ADM3 file at: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external/geoBoundaries-CMR-ADM3.geojson
+✅ ADM3 file found!
+📏 File size: 5001.00 KB
+📊 Raw ADM3 GeoJSON loaded with 360 features
+
+📋 Raw ADM3 columns: ['shapeName', 'shapeISO', 'shapeID', 'shapeGroup', 'shapeType', 'geometry']
+
+🏷️ Raw shapeName values (first 15):
+   1. 'Mbonge'
+   2. 'Magba'
+   3. 'MÃ©long'
+   4. 'FokouÃ©'
+   5. 'Bibemi'
+   6. 'Fonfuka'
+   7. 'Nwa'
+   8. 'Ambam'
+   9. 'BaschÃ©o'
+   10. 'Ngoura'
+   11. 'Dir'
+   12. 'Fundong'
+   13. 'Mayo-Oulo'
+   14. 'Bandja'
+   15. 'BangangtÃ©'
+   ... and 345 more
+
+✅ Processed ADM3: 360 arrondissements
+
+📍 ARRONDISSEMENTS with centroids (first 20):
+   1. MBONGE                                   | Lat: 4.4100, Lon: 9.1400
+   2. MAGBA                                    | Lat: 6.0714, Lon: 11.1428
+   3. MÃ©LONG                                  | Lat: 5.1641, Lon: 9.8821
+   4. FOKOUÃ©                                  | Lat: 5.3303, Lon: 10.1192
+   5. BIBEMI                                   | Lat: 9.3147, Lon: 13.9128
+   6. FONFUKA                                  | Lat: 6.5057, Lon: 10.4369
+   7. NWA                                      | Lat: 6.4933, Lon: 11.0241
+   8. AMBAM                                    | Lat: 2.4741, Lon: 11.2551
+   9. BASCHÃ©O                                 | Lat: 9.7896, Lon: 13.3637
+   10. NGOURA                                   | Lat: 4.8980, Lon: 14.1192
+   11. DIR                                      | Lat: 6.3386, Lon: 13.6833
+   12. FUNDONG                                  | Lat: 6.3163, Lon: 10.3013
+   13. MAYO-OULO                                | Lat: 10.0071, Lon: 13.6022
+   14. BANDJA                                   | Lat: 5.2638, Lon: 10.2231
+   15. BANGANGTÃ©                               | Lat: 5.1299, Lon: 10.6241
+   16. BIKOK                                    | Lat: 3.5483, Lon: 11.4274
+   17. MBANKOMO                                 | Lat: 3.7741, Lon: 11.3534
+   18. MALENTOUEN                               | Lat: 5.6813, Lon: 11.1294
+   19. BENAKUMA                                 | Lat: 6.4124, Lon: 9.8691
+   20. TOUBORO                                  | Lat: 7.6132, Lon: 15.0012
+   ... and 340 more arrondissements
+
+------------------------------------------------------------
+📁 STEP 4: Loading WOF - Localities/Villages
+------------------------------------------------------------
+🔍 Looking for WOF shapefile at: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external/whosonfirst-data-admin-cm-latest/whosonfirst-data-admin-cm-locality-point.shp
+✅ WOF shapefile found!
+📏 File size: 367.49 KB
+📊 Raw WOF shapefile loaded with 13436 features
+
+📋 Raw WOF columns: ['id', 'parent_id', 'name', 'placetype', 'placelocal', 'country', 'repo', 'lat', 'lon', 'min_lat', 'min_lon', 'max_lat', 'max_lon', 'min_zoom', 'max_zoom', 'min_label', 'max_label', 'modified', 'is_funky', 'population', 'country_id', 'region_id', 'county_id', 'concord_ke', 'concord_id', 'iso_code', 'hasc_id', 'gn_id', 'wd_id', 'name_ara', 'name_ben', 'name_deu', 'name_eng', 'name_ell', 'name_fas', 'name_fra', 'name_heb', 'name_hin', 'name_hun', 'name_ind', 'name_ita', 'name_jpn', 'name_kor', 'name_nld', 'name_pol', 'name_por', 'name_rus', 'name_spa', 'name_swe', 'name_tur', 'name_ukr', 'name_urd', 'name_vie', 'name_zho', 'geom_src', 'geometry']
+   ✅ Using 'name' column for village names
+   ✅ Using 'lat' and 'lon' columns for coordinates
+   ✅ Using 'region_id' for region mapping
+   ✅ Using 'county_id' for department mapping
+   ✅ Using 'placetype' for administrative level
+
+📊 WOF data structure:
+   - Village names present: 13,436 / 13436
+   - Coordinates present: 13,436 / 13436
+   - Region_WOF present: 12,571
+   - Department_WOF present: 12,532
+   - Arrondissement_WOF present: 13,436
+
+📝 Sample WOF records (first 10):
+   1. Village: BANDJOUN
+      Region ID: 85669961, Dept ID: 1092012225, Type: locality
+      Coords: (5.3788, 10.4182)
+
+   2. Village: MOUANGKO
+      Region ID: 85669937, Dept ID: 1092011153, Type: locality
+      Coords: (3.6397, 9.7769)
+
+   3. Village: WUM
+      Region ID: 85669941, Dept ID: 1092010619, Type: locality
+      Coords: (6.3833, 10.0667)
+
+   4. Village: KRIBI
+      Region ID: 85669971, Dept ID: 1092012139, Type: locality
+      Coords: (2.9500, 9.9167)
+
+   5. Village: MUYUKA
+      Region ID: 85669967, Dept ID: 1092010823, Type: locality
+      Coords: (4.2898, 9.4103)
+
+   6. Village: MUNDEMBA
+      Region ID: 85669967, Dept ID: 1092010791, Type: locality
+      Coords: (4.9479, 8.8724)
+
+   7. Village: MOKOLO
+      Region ID: 85669933, Dept ID: 1092011899, Type: locality
+      Coords: (10.7398, 13.8019)
+
+   8. Village: LOLODORF
+      Region ID: 85669971, Dept ID: 1092012139, Type: locality
+      Coords: (3.2333, 10.7333)
+
+   9. Village: KOZA
+      Region ID: 85669933, Dept ID: 1092011899, Type: locality
+      Coords: (10.8708, 13.8786)
+
+   10. Village: EDÉA
+      Region ID: 85669937, Dept ID: 1092011153, Type: locality
+      Coords: (3.8000, 10.1333)
+
+
+🗑️ Dropped 0 records without coordinates
+✅ Final WOF dataset: 13436 villages/localities with coordinates
+
+================================================================================
+📊 GEOSPATIAL DATA LOADING SUMMARY
+================================================================================
+✅ ADM1 (Regions):            10 features
+✅ ADM2 (Departments):        60 features
+✅ ADM3 (Arrondissements):   360 features
+✅ WOF (Villages):        13,436 features
+================================================================================
+
+🔍 CREATING ARRONDISSEMENT-DEPARTMENT MAPPING:
+--------------------------------------------------
+📋 Need to map 360 arrondissements to 60 departments
+   (This requires spatial join or manual mapping)
+
+🔍 VERIFYING DEPARTMENT-REGION MAPPING:
+----------------------------------------
+
+📋 DEPARTMENT-REGION MAPPING SUMMARY:
+----------------------------------------
+   ADAMAOUA        : 5 departments
+   CENTRE          : 10 departments
+   EST             : 4 departments
+   EXTREME-NORD    : 6 departments
+   LITTORAL        : 4 departments
+   NORD            : 4 departments
+   NORD-OUEST      : 7 departments
+   OUEST           : 8 departments
+   SUD             : 4 departments
+   SUD-OUEST       : 6 departments
+📋 Department-region mapping has 58 departments across 10 regions
+
+✅ All 58 ADM2 departments found in mapping
+
+================================================================================
+✅ GEOSPATIAL DATA LOADING COMPLETE
+================================================================================
+
+
+   ADM1 (Regions): 10
+   ADM2 (Departments): 60
+   ADM3 (Arrondissements): 360
+
+📁 2. Loading WOF Localities...
+   Loaded 13,436 villages
+
+====================================================================================================
+📋 3. ALL CONFIG DEPARTMENTS (DEPT_POPULATION_2005)
+====================================================================================================
+
+   Total: 58 departments
+
+     1. BAMBOUTOS                           | Population 2005:      213,838
+     2. BENOUE                              | Population 2005:       85,195
+     3. BOUMBA ET NGOKO                     | Population 2005:      115,354
+     4. BOYO                                | Population 2005:      124,887
+     5. BUI                                 | Population 2005:      321,969
+     6. DIAMARE                             | Population 2005:      642,227
+     7. DJA ET LOBO                         | Population 2005:      199,485
+     8. DJEREM                              | Population 2005:      124,948
+     9. DONGA MANTUNG                       | Population 2005:      269,931
+    10. FAKO                                | Population 2005:      294,709
+    11. FARO                                | Population 2005:       69,477
+    12. FARO ET DEO                         | Population 2005:       82,717
+    13. HAUT NYONG                          | Population 2005:      196,519
+    14. HAUT-NKAM                           | Population 2005:      129,323
+    15. HAUTE-SANAGA                        | Population 2005:      100,352
+    16. HAUTS-PLATEAUX                      | Population 2005:      104,678
+    17. KADEY                               | Population 2005:      184,098
+    18. KOUNG-KHI                           | Population 2005:       67,021
+    19. KUPE ET MANENGUBA                   | Population 2005:      125,443
+    20. LEBIALEM                            | Population 2005:      113,736
+    21. LEKIE                               | Population 2005:      286,050
+    22. LOGONE ET CHARI                     | Population 2005:      486,997
+    23. LOM ET DJEREM                       | Population 2005:      275,784
+    24. MANYU                               | Population 2005:      155,011
+    25. MAYO BANYO                          | Population 2005:      187,066
+    26. MAYO DANAY                          | Population 2005:      529,061
+    27. MAYO KANI                           | Population 2005:      404,646
+    28. MAYO LOUTI                          | Population 2005:      391,326
+    29. MAYO REY                            | Population 2005:      375,201
+    30. MAYO SAVA                           | Population 2005:      348,890
+    31. MAYO TSANAGA                        | Population 2005:      699,971
+    32. MBAM ET INOUBOU                     | Population 2005:      188,927
+    33. MBAM ET KIM                         | Population 2005:      105,511
+    34. MBERE                               | Population 2005:      171,670
+    35. MEFOU ET AFAMBA                     | Population 2005:      126,025
+    36. MEFOU ET AKONO                      | Population 2005:       59,017
+    37. MEME                                | Population 2005:      257,343
+    38. MENCHUM                             | Population 2005:      161,998
+    39. MENOUA                              | Population 2005:      289,105
+    40. MEZAM                               | Population 2005:      524,127
+    41. MFOUNDI                             | Population 2005:      188,187
+    42. MIFI                                | Population 2005:      319,862
+    43. MOMO                                | Population 2005:      138,693
+    44. MOUNGO                              | Population 2005:      379,241
+    45. MVILA                               | Population 2005:      218,734
+    46. NDE                                 | Population 2005:       95,292
+    47. NDIAN                               | Population 2005:       99,917
+    48. NGO KETUNJIA                        | Population 2005:      187,348
+    49. NKAM                                | Population 2005:       36,730
+    50. NOUN                                | Population 2005:      160,169
+    51. NYONG ET KELLE                      | Population 2005:      129,819
+    52. NYONG ET MFOUMOU                    | Population 2005:      104,507
+    53. NYONG ET SO'O                       | Population 2005:      115,960
+    54. OCEAN                               | Population 2005:      115,397
+    55. SANAGA MARITIME                     | Population 2005:      162,315
+    56. VALLEE DU NTEM                      | Population 2005:       88,596
+    57. VINA                                | Population 2005:      317,888
+    58. WOURI                               | Population 2005:      193,197
+
+====================================================================================================
+🗺️ 4. ALL ADM2 DEPARTMENTS (from GeoBoundaries)
+====================================================================================================
+
+   Total: 60 departments
+
+     1. BAMBOUTOS                           | Centroid: (5.6742, 10.3074)
+     2. BENOUE                              | Centroid: (9.2277, 13.4870)
+     3. BOUMBA-ET-NGOKO                     | Centroid: (2.7926, 15.2525)
+     4. BOYO                                | Centroid: (6.3618, 10.3645)
+     5. BUI                                 | Centroid: (6.2170, 10.7370)
+     6. DIAMARE                             | Centroid: (10.6670, 14.3591)
+     7. DJA-ET-LOBO                         | Centroid: (2.7738, 12.6090)
+     8. DJEREM                              | Centroid: (6.4592, 12.7224)
+     9. DONGA-MANTUNG                       | Centroid: (6.6320, 10.7994)
+    10. FAKO                                | Centroid: (4.1769, 9.2539)
+    11. FARO                                | Centroid: (8.2504, 12.8840)
+    12. FARO-ET-DEO                         | Centroid: (7.4459, 12.4611)
+    13. HAUT-NKAM                           | Centroid: (5.1573, 10.1836)
+    14. HAUT-NYONG                          | Centroid: (3.3378, 13.5841)
+    15. HAUTE-SANAGA                        | Centroid: (4.6778, 12.5127)
+    16. HAUTS-PLATEAUX                      | Centroid: (5.3136, 10.3498)
+    17. KADEI                               | Centroid: (4.2695, 14.3860)
+    18. KOUNG-KHI                           | Centroid: (5.3489, 10.4715)
+    19. KUPE-MANENGUBA                      | Centroid: (5.1206, 9.5993)
+    20. LEBIALEM                            | Centroid: (5.5960, 9.9420)
+    21. LEKIE                               | Centroid: (4.1496, 11.4103)
+    22. LOGONE-ET-CHARI                     | Centroid: (11.9994, 14.6622)
+    23. LOM-ET-DJEREM                       | Centroid: (5.3256, 13.7653)
+    24. MANYU                               | Centroid: (5.8241, 9.3727)
+    25. MAYO-BANYO                          | Centroid: (6.5699, 11.7290)
+    26. MAYO-DANAY                          | Centroid: (10.3970, 15.0764)
+    27. MAYO-KANI                           | Centroid: (10.2422, 14.5143)
+    28. MAYO-LOUTI                          | Centroid: (9.9368, 13.8044)
+    29. MAYO-REY                            | Centroid: (8.1080, 14.4771)
+    30. MAYO-SAVA                           | Centroid: (11.0647, 14.1567)
+    31. MAYO-TSANAGA                        | Centroid: (10.5333, 13.7458)
+    32. MBAM-ET-INOUBOU                     | Centroid: (4.7312, 10.9660)
+    33. MBAM-ET-KIM                         | Centroid: (5.4288, 11.9900)
+    34. MBERE                               | Centroid: (6.4733, 14.2128)
+    35. MEFOU-ET-AFAMBA                     | Centroid: (3.9590, 11.8050)
+    36. MEFOU-ET-AKONO                      | Centroid: (3.6085, 11.3664)
+    37. MEME                                | Centroid: (4.6415, 9.3283)
+    38. MENCHUM                             | Centroid: (6.5915, 10.0687)
+    39. MENOUA                              | Centroid: (5.4209, 10.0802)
+    40. MEZAM                               | Centroid: (5.9916, 10.1419)
+    41. MFOUNDI                             | Centroid: (3.8085, 11.5128)
+    42. MIFI                                | Centroid: (5.5361, 10.4413)
+    43. MOMO                                | Centroid: (5.9834, 9.8175)
+    44. MOUNGO                              | Centroid: (4.6723, 9.7675)
+    45. MVILA                               | Centroid: (2.8278, 11.4153)
+    46. NDE                                 | Centroid: (5.0741, 10.6002)
+    47. NDIAN                               | Centroid: (4.8911, 8.9607)
+    48. NDIAN                               | Centroid: (4.8911, 8.9607)
+    49. NGO-KETUNJIA                        | Centroid: (5.9648, 10.4788)
+    50. NKAM                                | Centroid: (4.5320, 10.1606)
+    51. NOUN                                | Centroid: (5.6454, 10.9158)
+    52. NYONG-ET-KELLE                      | Centroid: (3.7142, 10.8186)
+    53. NYONG-ET-MFOUMOU                    | Centroid: (3.8596, 12.3350)
+    54. NYONG-ET-SO                         | Centroid: (3.4036, 11.5476)
+    55. OCEAN                               | Centroid: (2.9082, 10.3047)
+    56. SANAGA-MARITIME                     | Centroid: (3.6221, 9.6354)
+    57. SANAGA-MARITIME                     | Centroid: (3.6221, 9.6354)
+    58. VALLEE-DU-NTEM                      | Centroid: (2.4541, 10.9542)
+    59. VINA                                | Centroid: (7.1697, 13.6693)
+    60. WOURI                               | Centroid: (3.9970, 9.6646)
+
+====================================================================================================
+🔍 5. DEPARTMENT NAME COMPARISON (Config vs ADM2)
+====================================================================================================
+
+   ✅ Exact matches: 32 / 58
+
+   ⚠️ Config departments NOT in ADM2: 26
+      - BOUMBA ET NGOKO
+      - DJA ET LOBO
+      - DONGA MANTUNG
+      - FARO ET DEO
+      - HAUT NYONG
+      - KADEY
+      - KUPE ET MANENGUBA
+      - LOGONE ET CHARI
+      - LOM ET DJEREM
+      - MAYO BANYO
+      - MAYO DANAY
+      - MAYO KANI
+      - MAYO LOUTI
+      - MAYO REY
+      - MAYO SAVA
+      - MAYO TSANAGA
+      - MBAM ET INOUBOU
+      - MBAM ET KIM
+      - MEFOU ET AFAMBA
+      - MEFOU ET AKONO
+      - NGO KETUNJIA
+      - NYONG ET KELLE
+      - NYONG ET MFOUMOU
+      - NYONG ET SO'O
+      - SANAGA MARITIME
+      - VALLEE DU NTEM
+
+   ⚠️ ADM2 departments NOT in Config: 26
+      - BOUMBA-ET-NGOKO
+      - DJA-ET-LOBO
+      - DONGA-MANTUNG
+      - FARO-ET-DEO
+      - HAUT-NYONG
+      - KADEI
+      - KUPE-MANENGUBA
+      - LOGONE-ET-CHARI
+      - LOM-ET-DJEREM
+      - MAYO-BANYO
+      - MAYO-DANAY
+      - MAYO-KANI
+      - MAYO-LOUTI
+      - MAYO-REY
+      - MAYO-SAVA
+      - MAYO-TSANAGA
+      - MBAM-ET-INOUBOU
+      - MBAM-ET-KIM
+      - MEFOU-ET-AFAMBA
+      - MEFOU-ET-AKONO
+      - NGO-KETUNJIA
+      - NYONG-ET-KELLE
+      - NYONG-ET-MFOUMOU
+      - NYONG-ET-SO
+      - SANAGA-MARITIME
+      - VALLEE-DU-NTEM
+
+====================================================================================================
+📋 6. ALL CONFIG ARRONDISSEMENTS (ARRONDISSEMENT_POPULATION_2005)
+====================================================================================================
+
+   Total: 361 arrondissements
+
+     1. ABO                                           | Population 2005:       25,018
+     2. ABONG-MBANG                                   | Population 2005:       29,005
+     3. AFANLOUM                                      | Population 2005:       17,879
+     4. AKO                                           | Population 2005:       40,349
+     5. AKOEMAN                                       | Population 2005:        5,397
+     6. AKOM II                                       | Population 2005:        8,802
+     7. AKONO                                         | Population 2005:        8,511
+     8. AKONOLINGA                                    | Population 2005:        4,756
+     9. AKWAYA                                        | Population 2005:       85,914
+    10. ALOU                                          | Population 2005:       35,855
+    11. AMBAM                                         | Population 2005:       41,089
+    12. ASSAMBA                                       | Population 2005:       48,012
+    13. AWAE                                          | Population 2005:       15,888
+    14. AYOS                                          | Population 2005:       22,899
+    15. BABADJOU                                      | Population 2005:       36,929
+    16. BABESSI                                       | Population 2005:       49,208
+    17. BAFANG                                        | Population 2005:       29,821
+    18. BAFIA                                         | Population 2005:       72,717
+    19. BAFOUSSAM I                                   | Population 2005:       98,339
+    20. BAFOUSSAM II                                  | Population 2005:      121,282
+    21. BAFOUSSAM III                                 | Population 2005:       81,835
+    22. BAFUT                                         | Population 2005:       57,930
+    23. BAHAM                                         | Population 2005:       19,680
+    24. BAKOU                                         | Population 2005:        5,255
+    25. BALI                                          | Population 2005:       30,375
+    26. BALIKUMBAT                                    | Population 2005:       68,537
+    27. BAMENDA 1                                     | Population 2005:       28,359
+    28. BAMENDA 2                                     | Population 2005:      184,277
+    29. BAMENDA 3                                     | Population 2005:      110,253
+    30. BAMENDJOU                                     | Population 2005:       34,269
+    31. BAMUSSO                                       | Population 2005:       19,230
+    32. BANA                                          | Population 2005:       10,254
+    33. BANDJA                                        | Population 2005:       30,931
+    34. BANGANGTE                                     | Population 2005:       63,595
+    35. BANGEM                                        | Population 2005:       21,411
+    36. BANGOU                                        | Population 2005:       15,787
+    37. BANGOURAIN                                    | Population 2005:       30,877
+    38. BANKA                                         | Population 2005:       25,290
+    39. BANKIM                                        | Population 2005:       70,132
+    40. BANWA                                         | Population 2005:       11,693
+    41. BANYO                                         | Population 2005:       93,880
+    42. BARE-BAKEM                                    | Population 2005:       16,485
+    43. BASCHEO                                       | Population 2005:       26,743
+    44. BASSAMBA                                      | Population 2005:        2,814
+    45. BATCHAM                                       | Population 2005:       83,817
+    46. BATIBO                                        | Population 2005:       44,619
+    47. BATIE                                         | Population 2005:       10,942
+    48. BATOURI                                       | Population 2005:       67,007
+    49. BATSCHENGA                                    | Population 2005:        9,303
+    50. BAYANGAM                                      | Population 2005:       13,397
+    51. BAZOU                                         | Population 2005:       14,912
+    52. BEBEND                                        | Population 2005:        9,335
+    53. BEKA                                          | Population 2005:       31,595
+    54. BELABO                                        | Population 2005:       30,953
+    55. BELEL                                         | Population 2005:       37,663
+    56. BELO                                          | Population 2005:       40,757
+    57. BENGBIS                                       | Population 2005:       13,075
+    58. BERTOUA I                                     | Population 2005:       52,355
+    59. BERTOUA II                                    | Population 2005:       52,355
+    60. BETARE-OYA                                    | Population 2005:       41,173
+    61. BIBEMI                                        | Population 2005:       13,319
+    62. BIBEY                                         | Population 2005:        4,875
+    63. BIKOK                                         | Population 2005:       16,278
+    64. BIPINDI                                       | Population 2005:       14,118
+    65. BIWONG-BANE                                   | Population 2005:       13,151
+    66. BIWONG-BULU                                   | Population 2005:       12,867
+    67. BIYOUHA                                       | Population 2005:        3,386
+    68. BLANGOUA                                      | Population 2005:       50,398
+    69. BOGO                                          | Population 2005:       95,230
+    70. BOKITO                                        | Population 2005:       40,228
+    71. BOMBE                                         | Population 2005:       16,147
+    72. BONDJOCK                                      | Population 2005:        8,431
+    73. BOT-MAKAK                                     | Population 2005:       17,089
+    74. BOURHA                                        | Population 2005:       88,585
+    75. BUEA                                          | Population 2005:      131,325
+    76. BUM                                           | Population 2005:       17,838
+    77. CAMPO                                         | Population 2005:        6,923
+    78. DARAK                                         | Population 2005:       23,901
+    79. DARGALA                                       | Population 2005:       33,142
+    80. DATCHEKA                                      | Population 2005:       31,545
+    81. DEMBO                                         | Population 2005:       15,816
+    82. DEMSA                                         | Population 2005:       37,282
+    83. DEUK                                          | Population 2005:       11,485
+    84. DIANG                                         | Population 2005:       15,795
+    85. DIBAMBA                                       | Population 2005:        5,350
+    86. DIBANG                                        | Population 2005:        9,063
+    87. DIBOMBARI                                     | Population 2005:       17,141
+    88. DIKOMBA BALUE                                 | Population 2005:       13,364
+    89. DIMAKO                                        | Population 2005:       12,894
+    90. DIR                                           | Population 2005:       34,284
+    91. DIZANGUE                                      | Population 2005:       17,086
+    92. DJA                                           | Population 2005:       10,431
+    93. DJEBEM                                        | Population 2005:       10,987
+    94. DJOHONG                                       | Population 2005:       24,445
+    95. DJOUM                                         | Population 2005:       18,050
+    96. DOUALA I                                      | Population 2005:      223,214
+    97. DOUALA II                                     | Population 2005:      261,407
+    98. DOUALA III                                    | Population 2005:      646,347
+    99. DOUALA IV                                     | Population 2005:      250,626
+   100. DOUALA V                                      | Population 2005:      544,919
+   101. DOUALA VI                                     | Population 2005:        5,464
+   102. DOUMAINTANG                                   | Population 2005:        7,956
+   103. DOUME                                         | Population 2005:       18,429
+   104. DSCHANG                                       | Population 2005:      101,385
+   105. DZENG                                         | Population 2005:        9,412
+   106. EBEBDA                                        | Population 2005:       21,368
+   107. EBOLOWA I                                     | Population 2005:       40,538
+   108. EBOLOWA II                                    | Population 2005:       55,957
+   109. EDEA I                                        | Population 2005:       64,761
+   110. EDEA II                                       | Population 2005:       13,539
+   111. EDZENDOUAN                                    | Population 2005:       44,362
+   112. EFOULAN                                       | Population 2005:        8,905
+   113. EKONDO-TITI                                   | Population 2005:       56,503
+   114. ELIG-MFOMO                                    | Population 2005:       16,161
+   115. ENDOM                                         | Population 2005:       14,789
+   116. ESEAK                                         | Population 2005:       23,242
+   117. ESSE                                          | Population 2005:       16,822
+   118. EVODOULA                                      | Population 2005:       18,899
+   119. EYUMODJOCK                                    | Population 2005:       35,999
+   120. FIGUIL                                        | Population 2005:       67,997
+   121. FOKOUE                                        | Population 2005:        9,576
+   122. FONGO TONGO                                   | Population 2005:       18,822
+   123. FONTEM                                        | Population 2005:       39,706
+   124. FOTOKOL                                       | Population 2005:       36,893
+   125. FOUMBAN                                       | Population 2005:      106,309
+   126. FOUMBOT                                       | Population 2005:       76,486
+   127. FUNDONG                                       | Population 2005:       45,831
+   128. FUNGOM                                        | Population 2005:       58,666
+   129. FURU-AWA                                      | Population 2005:       13,997
+   130. GALIM                                         | Population 2005:       51,014
+   131. GALIM TIGNERE                                 | Population 2005:       25,739
+   132. GARI GOMBO                                    | Population 2005:       15,978
+   133. GAROUA I                                      | Population 2005:      120,232
+   134. GAROUA II                                     | Population 2005:      117,841
+   135. GAROUA III                                    | Population 2005:       27,229
+   136. GAROUA-BOULAI                                 | Population 2005:       41,388
+   137. GAZAWA                                        | Population 2005:       27,395
+   138. GOBO                                          | Population 2005:       53,119
+   139. GOULFEY                                       | Population 2005:       58,117
+   140. GUERE                                         | Population 2005:       38,328
+   141. GUIDER                                        | Population 2005:      223,503
+   142. GUIDIGUIS                                     | Population 2005:       43,632
+   143. HILE-ALIFA                                    | Population 2005:       18,425
+   144. HINA                                          | Population 2005:       43,755
+   145. IDABATO                                       | Population 2005:        3,482
+   146. ISANGELE                                      | Population 2005:        3,476
+   147. JAKIRI                                        | Population 2005:       47,022
+   148. KAELE                                         | Population 2005:      105,504
+   149. KAI-KAI                                       | Population 2005:       55,366
+   150. KALFOU                                        | Population 2005:       26,203
+   151. KARHAY                                        | Population 2005:       42,963
+   152. KEKEM                                         | Population 2005:       31,542
+   153. KETTE                                         | Population 2005:       31,129
+   154. KIIKI                                         | Population 2005:        8,519
+   155. KOLOFATA                                      | Population 2005:       77,857
+   156. KOMBO ABEDIMO                                 | Population 2005:        2,146
+   157. KOMBO ITINDI                                  | Population 2005:        2,958
+   158. KON-YAMBETTA                                  | Population 2005:        8,692
+   159. KONTCHA                                       | Population 2005:        6,938
+   160. KONYE                                         | Population 2005:       44,711
+   161. KOUOPTAMO                                     | Population 2005:       48,772
+   162. KOUSSERI                                      | Population 2005:      101,246
+   163. KOUTABA                                       | Population 2005:       49,171
+   164. KOZA                                          | Population 2005:       81,076
+   165. KRIBI I                                       | Population 2005:       29,886
+   166. KRIBI II                                      | Population 2005:       40,679
+   167. KUMBA I                                       | Population 2005:       68,095
+   168. KUMBA II                                      | Population 2005:       62,878
+   169. KUMBA III                                     | Population 2005:       35,358
+   170. KUMBO                                         | Population 2005:       83,479
+   171. KYE OSSI                                      | Population 2005:       17,120
+   172. LAGDO                                         | Population 2005:       14,212
+   173. LEMBE YEZOUM                                  | Population 2005:        7,207
+   174. LIMBE I                                       | Population 2005:       93,255
+   175. LIMBE II                                      | Population 2005:       16,401
+   176. LIMBE III                                     | Population 2005:        8,554
+   177. LOBO                                          | Population 2005:       10,157
+   178. LOGONE BIRNI                                  | Population 2005:       52,589
+   179. LOKOUNDJE                                     | Population 2005:       22,681
+   180. LOLODORF                                      | Population 2005:       14,326
+   181. LOMIE                                         | Population 2005:       18,952
+   182. LOUM                                          | Population 2005:       39,707
+   183. MA'AN                                         | Population 2005:       12,448
+   184. MADINGRING                                    | Population 2005:       57,347
+   185. MAGA                                          | Population 2005:       85,100
+   186. MAGBA                                         | Population 2005:       35,628
+   187. MAKAK                                         | Population 2005:       29,135
+   188. MAKARI                                        | Population 2005:       10,484
+   189. MAKENENE                                      | Population 2005:       16,564
+   190. MALENTOUEN                                    | Population 2005:       45,121
+   191. MAMFE CENTRAL                                 | Population 2005:       31,641
+   192. MANDJOU                                       | Population 2005:       17,097
+   193. MANJO                                         | Population 2005:       34,230
+   194. MANOKA                                        | Population 2005:        5,464
+   195. MAROUA I                                      | Population 2005:      134,934
+   196. MAROUA II                                     | Population 2005:      108,902
+   197. MAROUA III                                    | Population 2005:       86,574
+   198. MARTAP                                        | Population 2005:       24,815
+   199. MASSANGAM                                     | Population 2005:       38,736
+   200. MASSOK-SONGLOULOU                             | Population 2005:        5,044
+   201. MATOMB                                        | Population 2005:       11,512
+   202. MAYO BALEO                                    | Population 2005:       15,873
+   203. MAYO HOURNA                                   | Population 2005:       21,445
+   204. MAYO OULO                                     | Population 2005:       99,826
+   205. MAYO-DARLE                                    | Population 2005:       23,054
+   206. MAYO-MOSKOTA                                  | Population 2005:       73,716
+   207. MBALMAYO                                      | Population 2005:       62,808
+   208. MBANDJOCK                                     | Population 2005:       21,076
+   209. MBANG                                         | Population 2005:       25,603
+   210. MBANGA                                        | Population 2005:       35,415
+   211. MBANGASSINA                                   | Population 2005:       41,180
+   212. MBANKOMO                                      | Population 2005:       20,305
+   213. MBE                                           | Population 2005:       17,478
+   214. MBENGWI                                       | Population 2005:       31,591
+   215. MBOANZ                                        | Population 2005:       13,608
+   216. MBOMA                                         | Population 2005:        8,120
+   217. MBONGE                                        | Population 2005:      115,692
+   218. MBOTORO                                       | Population 2005:        7,674
+   219. MBOUDA                                        | Population 2005:      120,650
+   220. MBVEN                                         | Population 2005:       20,289
+   221. MEIGANGA                                      | Population 2005:       88,745
+   222. MELONG                                        | Population 2005:       54,279
+   223. MENCHUM VALLEY                                | Population 2005:       50,235
+   224. MENGANG                                       | Population 2005:        8,031
+   225. MENGONG                                       | Population 2005:       17,222
+   226. MENGUEME                                      | Population 2005:        7,527
+   227. MERI                                          | Population 2005:       86,834
+   228. MESSAMENA                                     | Population 2005:       26,153
+   229. MESSOK                                        | Population 2005:       11,213
+   230. MESSONDO                                      | Population 2005:       14,139
+   231. MEYOMESSALA                                   | Population 2005:       31,366
+   232. MEYOMESSI                                     | Population 2005:        9,227
+   233. MFOU                                          | Population 2005:       37,209
+   234. MINDIF                                        | Population 2005:       50,530
+   235. MINTA                                         | Population 2005:       11,406
+   236. MINTOM                                        | Population 2005:        6,130
+   237. MISAJE                                        | Population 2005:       22,641
+   238. MOGODE                                        | Population 2005:      112,905
+   239. MOKOLO                                        | Population 2005:      242,274
+   240. MOLOUNDOU                                     | Population 2005:       18,174
+   241. MOMBO                                         | Population 2005:        5,530
+   242. MONATELE                                      | Population 2005:       36,933
+   243. MORA                                          | Population 2005:      179,777
+   244. MOUANKO                                       | Population 2005:        9,162
+   245. MOULVOUDAYE                                   | Population 2005:       82,368
+   246. MOUTOURWA                                     | Population 2005:       40,197
+   247. MUNDEMBA                                      | Population 2005:       14,385
+   248. MUYUKA                                        | Population 2005:       86,268
+   249. MVANGAN                                       | Population 2005:       16,114
+   250. MVENGUE                                       | Population 2005:       17,757
+   251. NANGA-EBOKO                                   | Population 2005:       29,814
+   252. NDELELE                                       | Population 2005:       26,127
+   253. NDEM-NAM                                      | Population 2005:       10,411
+   254. NDIKINIMEKI                                   | Population 2005:       17,462
+   255. NDOM                                          | Population 2005:       10,340
+   256. NDOP                                          | Population 2005:       69,603
+   257. NDOUKOULA                                     | Population 2005:       32,091
+   258. NDU                                           | Population 2005:       73,955
+   259. NGAMBE                                        | Population 2005:        6,210
+   260. NGAMBE-TIKAR                                  | Population 2005:       12,489
+   261. NGAN-HA                                       | Population 2005:       28,726
+   262. NGAOUI                                        | Population 2005:       24,196
+   263. NGAOUNDAL                                     | Population 2005:       52,867
+   264. NGAOUNDERE I                                  | Population 2005:       78,277
+   265. NGAOUNDERE II                                 | Population 2005:       84,959
+   266. NGAOUNDERE III                                | Population 2005:       17,527
+   267. NGIE                                          | Population 2005:       17,697
+   268. NGOG MAPUBI                                   | Population 2005:        9,137
+   269. NGOMEDZAP                                     | Population 2005:        2,150
+   270. NGORO                                         | Population 2005:       13,892
+   271. NGOULEMAKONG                                  | Population 2005:       14,675
+   272. NGOUMOU                                       | Population 2005:       13,923
+   273. NGOURA                                        | Population 2005:       34,489
+   274. NGOYLA                                        | Population 2005:        4,424
+   275. NGUELEMENDOUKA                                | Population 2005:       21,097
+   276. NGUIBASSAL                                    | Population 2005:       46,852
+   277. NGUTI                                         | Population 2005:       27,151
+   278. NGWEI                                         | Population 2005:        4,831
+   279. NIETE                                         | Population 2005:       23,921
+   280. NITOUKOU                                      | Population 2005:       48,312
+   281. NJIKWA                                        | Population 2005:       16,634
+   282. NJIMOM                                        | Population 2005:       23,983
+   283. NJINIKOM                                      | Population 2005:       20,461
+   284. NJOMBE-PENJA                                  | Population 2005:       31,792
+   285. NKAMBE                                        | Population 2005:       63,032
+   286. NKOLAFAMBA                                    | Population 2005:       14,494
+   287. NKOLMETET                                     | Population 2005:       13,647
+   288. NKONDJOCK                                     | Population 2005:       17,428
+   289. NKONG-NI                                      | Population 2005:       53,367
+   290. NKONGSAMBA I                                  | Population 2005:       52,434
+   291. NKONGSAMBA II                                 | Population 2005:       37,154
+   292. NKONGSAMBA III                                | Population 2005:       15,795
+   293. NKOTENG                                       | Population 2005:       19,797
+   294. NKUM                                          | Population 2005:       44,059
+   295. NLONAKO                                       | Population 2005:       14,261
+   296. NONI                                          | Population 2005:       39,400
+   297. NORD MAKOMBE                                  | Population 2005:        3,999
+   298. NSEM                                          | Population 2005:        6,177
+   299. NTUI                                          | Population 2005:       25,618
+   300. NWA                                           | Population 2005:       69,954
+   301. NYAKOKOMBO                                    | Population 2005:       11,227
+   302. NYAMBAKA                                      | Population 2005:       28,726
+   303. NYANON                                        | Population 2005:       12,517
+   304. OBALA                                         | Population 2005:       78,929
+   305. OKOLA                                         | Population 2005:       41,081
+   306. OKU                                           | Population 2005:       87,720
+   307. OLAMZE                                        | Population 2005:        8,528
+   308. OMBESSA                                       | Population 2005:       25,640
+   309. OVENG                                         | Population 2005:        6,007
+   310. PENKA-MICHEL                                  | Population 2005:       65,135
+   311. PETTE                                         | Population 2005:       37,125
+   312. PITOA                                         | Population 2005:       76,715
+   313. POLI                                          | Population 2005:       37,882
+   314. PORHI                                         | Population 2005:       38,809
+   315. POUMA                                         | Population 2005:       13,475
+   316. POUMOUGNE                                     | Population 2005:       40,637
+   317. REY-BOUBA                                     | Population 2005:      116,192
+   318. SA'A                                          | Population 2005:       53,219
+   319. SALAPOUMBE                                    | Population 2005:       17,240
+   320. SANCHOU                                       | Population 2005:       37,479
+   321. SANGMELIMA                                    | Population 2005:       82,513
+   322. SANTA                                         | Population 2005:       64,391
+   323. SOA                                           | Population 2005:       30,588
+   324. SOMALOMO                                      | Population 2005:        4,902
+   325. SOULEDE ROUA                                  | Population 2005:       57,660
+   326. TAIBONG                                       | Population 2005:       43,606
+   327. TCHATIBALI                                    | Population 2005:       32,063
+   328. TCHEBOA                                       | Population 2005:       92,658
+   329. TCHOLLIRE                                     | Population 2005:       47,296
+   330. TIBATI                                        | Population 2005:       72,081
+   331. TIGNERE                                       | Population 2005:       34,167
+   332. TIKO                                          | Population 2005:      117,884
+   333. TOKO                                          | Population 2005:        7,035
+   334. TOKOMBERE                                     | Population 2005:       91,256
+   335. TOMBEL                                        | Population 2005:       57,017
+   336. TONGA                                         | Population 2005:       13,528
+   337. TOUBORO                                       | Population 2005:      154,366
+   338. TOUROUA                                       | Population 2005:       40,674
+   339. TUBAH                                         | Population 2005:       48,542
+   340. UPPER BANYANG                                 | Population 2005:       27,485
+   341. VELE                                          | Population 2005:       41,693
+   342. WABANE                                        | Population 2005:       38,175
+   343. WAZA                                          | Population 2005:       15,013
+   344. WEST COAST                                    | Population 2005:       12,725
+   345. WIDIKUM-MENKA                                 | Population 2005:       28,152
+   346. WINA                                          | Population 2005:       30,702
+   347. WUM                                           | Population 2005:       39,100
+   348. YABASSI                                       | Population 2005:       12,999
+   349. YAGOUA                                        | Population 2005:       91,979
+   350. YAOUNDE I                                     | Population 2005:      281,586
+   351. YAOUNDE II                                    | Population 2005:      336,381
+   352. YAOUNDE III                                   | Population 2005:      252,501
+   353. YAOUNDE IV                                    | Population 2005:      477,350
+   354. YAOUNDE V                                     | Population 2005:      265,087
+   355. YAOUNDE VI                                    | Population 2005:      268,971
+   356. YAOUNDE VII                                   | Population 2005:       97,997
+   357. YINGUI                                        | Population 2005:        2,304
+   358. YOKADOUMA                                     | Population 2005:       63,962
+   359. YOKO                                          | Population 2005:       12,332
+   360. ZINA                                          | Population 2005:       25,572
+   361. ZOETELE                                       | Population 2005:       30,583
+
+====================================================================================================
+📋 7. ALL CONFIG ARRONDISSEMENTS (ARRONDISSEMENT_POPULATION_2010)
+====================================================================================================
+
+   Total: 323 arrondissements
+
+     1. ABO                                           | Population 2010:       16,022
+     2. ABONG-MBANG                                   | Population 2010:       15,663
+     3. AFANLOUM                                      | Population 2010:          401
+     4. AKO                                           | Population 2010:        5,516
+     5. AKOEMAN                                       | Population 2010:        2,770
+     6. AKOM II                                       | Population 2010:        1,258
+     7. AKONO                                         | Population 2010:        3,168
+     8. AKONOLINGA                                    | Population 2010:       19,282
+     9. AKWAYA                                        | Population 2010:        3,507
+    10. ALOU                                          | Population 2010:        5,620
+    11. AMBAM                                         | Population 2010:       16,060
+    12. ASSAMBA                                       | Population 2010:          891
+    13. AWAE                                          | Population 2010:        3,427
+    14. AYOS                                          | Population 2010:        8,654
+    15. BABADJOU                                      | Population 2010:        5,243
+    16. BABESSI                                       | Population 2010:        7,320
+    17. BAFANG                                        | Population 2010:       21,915
+    18. BAFIA                                         | Population 2010:       47,471
+    19. BAFOUSSAM                                     | Population 2010:       81,611
+    20. BAFUT                                         | Population 2010:       16,388
+    21. BAHAM                                         | Population 2010:        3,627
+    22. BAKOU                                         | Population 2010:        1,153
+    23. BALENG                                        | Population 2010:        9,952
+    24. BALI                                          | Population 2010:       17,612
+    25. BALIKUMBAT                                    | Population 2010:       10,163
+    26. BAMENDA                                       | Population 2010:      269,530
+    27. BAMENDJOU                                     | Population 2010:        5,351
+    28. BAMOUGOUM                                     | Population 2010:       58,152
+    29. BAMUSSO                                       | Population 2010:          801
+    30. BANA                                          | Population 2010:        2,878
+    31. BANDJA                                        | Population 2010:        6,167
+    32. BANGANGTE                                     | Population 2010:       28,011
+    33. BANGEM                                        | Population 2010:        5,712
+    34. BANGOU                                        | Population 2010:        2,794
+    35. BANGOURAIN                                    | Population 2010:       14,582
+    36. BANKA                                         | Population 2010:       13,026
+    37. BANKIM                                        | Population 2010:       11,372
+    38. BANWA                                         | Population 2010:        2,032
+    39. BANYO                                         | Population 2010:       30,730
+    40. BARE-BAKEM                                    | Population 2010:        7,512
+    41. BASCHEO                                       | Population 2010:        2,751
+    42. BASSAMBA                                      | Population 2010:        2,814
+    43. BATCHAM                                       | Population 2010:        3,301
+    44. BATIBO                                        | Population 2010:       10,350
+    45. BATIE                                         | Population 2010:        1,762
+    46. BATOURI                                       | Population 2010:       31,683
+    47. BATSCHENGA                                    | Population 2010:        3,308
+    48. BAYANGAM                                      | Population 2010:        1,201
+    49. BAZOU                                         | Population 2010:        5,923
+    50. BEBEND                                        | Population 2010:       11,256
+    51. BEKA                                          | Population 2010:        3,606
+    52. BELABO                                        | Population 2010:       15,616
+    53. BELEL                                         | Population 2010:        5,555
+    54. BELO                                          | Population 2010:       10,130
+    55. BENGBIS                                       | Population 2010:        1,605
+    56. BERTOUA                                       | Population 2010:       88,462
+    57. BETARE-OYA                                    | Population 2010:       82,064
+    58. BIBEMI                                        | Population 2010:        9,140
+    59. BIBEY                                         | Population 2010:        1,057
+    60. BIKOK                                         | Population 2010:       14,147
+    61. BIPINDI                                       | Population 2010:          861
+    62. BIWONG-BANE                                   | Population 2010:          802
+    63. BIYOUHA                                       | Population 2010:       16,518
+    64. BLANGOUA                                      | Population 2010:       17,454
+    65. BOGO                                          | Population 2010:       21,046
+    66. BOKITO                                        | Population 2010:        4,273
+    67. BOMBE                                         | Population 2010:        8,228
+    68. BONDJOCK                                      | Population 2010:       10,465
+    69. BOT MAKAK                                     | Population 2010:        4,257
+    70. BOURHA                                        | Population 2010:        8,542
+    71. BUEA                                          | Population 2010:       90,090
+    72. BUM                                           | Population 2010:        2,775
+    73. CAMPO                                         | Population 2010:        2,492
+    74. DARAK                                         | Population 2010:        8,614
+    75. DARGALA                                       | Population 2010:        4,086
+    76. DATCHEKA                                      | Population 2010:       23,831
+    77. DEMBO                                         | Population 2010:        2,284
+    78. DEMSA                                         | Population 2010:        7,898
+    79. DEUK                                          | Population 2010:       17,068
+    80. DIANG                                         | Population 2010:        2,984
+    81. DIBANG                                        | Population 2010:       12,256
+    82. DIBOMBARI                                     | Population 2010:       12,823
+    83. DIKOMBA BALUE                                 | Population 2010:        4,714
+    84. DIMAKO                                        | Population 2010:        6,112
+    85. DIR                                           | Population 2010:        5,148
+    86. DIZANGUE                                      | Population 2010:        6,632
+    87. DJA                                           | Population 2010:        3,489
+    88. DJEBEM                                        | Population 2010:        2,464
+    89. DJOHONG                                       | Population 2010:        4,145
+    90. DJOUM                                         | Population 2010:        5,447
+    91. DOUALA 1                                      | Population 2010:      223,214
+    92. DOUALA 2                                      | Population 2010:      261,407
+    93. DOUALA 3                                      | Population 2010:      641,073
+    94. DOUALA 4                                      | Population 2010:      242,821
+    95. DOUALA 5                                      | Population 2010:      538,449
+    96. DOUMAINTANG                                   | Population 2010:          591
+    97. DOUME                                         | Population 2010:        6,093
+    98. DSCHANG                                       | Population 2010:       63,838
+    99. DZENG                                         | Population 2010:          667
+   100. EBEBDA                                        | Population 2010:        2,770
+   101. EBOLOWA                                       | Population 2010:       64,980
+   102. EDEA                                          | Population 2010:       66,581
+   103. EDZENDOUAN                                    | Population 2010:        4,132
+   104. EKONDO-TITI                                   | Population 2010:       15,370
+   105. ELIG-MFOMO                                    | Population 2010:          996
+   106. ENDOM                                         | Population 2010:       17,588
+   107. ESEKA                                         | Population 2010:       17,904
+   108. ESSE                                          | Population 2010:        2,360
+   109. EVODOULA                                      | Population 2010:        2,236
+   110. EYUMODJOCK                                    | Population 2010:        2,083
+   111. FIGUIL                                        | Population 2010:       20,226
+   112. FOKOUE                                        | Population 2010:        1,127
+   113. FONTEM                                        | Population 2010:        7,023
+   114. FOTOKOL                                       | Population 2010:       11,787
+   115. FOUMBAN                                       | Population 2010:       83,522
+   116. FOUMBOT                                       | Population 2010:       50,716
+   117. FUNDONG                                       | Population 2010:        7,624
+   118. FUNGOM                                        | Population 2010:        1,315
+   119. FURU-AWA                                      | Population 2010:        1,501
+   120. GALIM                                         | Population 2010:        5,679
+   121. GALIM TIGNERE                                 | Population 2010:        5,233
+   122. GARI GOMBO                                    | Population 2010:        4,588
+   123. GAROUA                                        | Population 2010:      235,996
+   124. GAROUA-BOULAI                                 | Population 2010:       22,410
+   125. GAZAWA                                        | Population 2010:       11,006
+   126. GOBO                                          | Population 2010:       13,747
+   127. GOULFEY                                       | Population 2010:        5,754
+   128. GUERE                                         | Population 2010:        3,368
+   129. GUIDER                                        | Population 2010:       52,316
+   130. GUIDIGUIS                                     | Population 2010:       15,741
+   131. HILE-ALIFA                                    | Population 2010:        3,647
+   132. HINA                                          | Population 2010:        3,901
+   133. IDABATO                                       | Population 2010:        1,210
+   134. ISANGELE                                      | Population 2010:        1,728
+   135. JAKIRI                                        | Population 2010:        9,959
+   136. KAELE                                         | Population 2010:       25,810
+   137. KAI-KAI                                       | Population 2010:        4,935
+   138. KALFOU                                        | Population 2010:        3,669
+   139. KARHAY                                        | Population 2010:       11,788
+   140. KEKEM                                         | Population 2010:       17,333
+   141. KETTE                                         | Population 2010:        4,951
+   142. KOLOFATA                                      | Population 2010:       10,605
+   143. KOMBO ABEDIMO                                 | Population 2010:          754
+   144. KONTCHA                                       | Population 2010:        3,290
+   145. KONYE                                         | Population 2010:        4,367
+   146. KOUOPTAMO                                     | Population 2010:        8,009
+   147. KOUSSERI                                      | Population 2010:       89,123
+   148. KOUTABA                                       | Population 2010:        9,410
+   149. KOZA                                          | Population 2010:        9,723
+   150. KRIBI                                         | Population 2010:       59,928
+   151. KUMBA                                         | Population 2010:       14,426
+   152. KUMBO                                         | Population 2010:       80,212
+   153. LAGDO                                         | Population 2010:       21,517
+   154. LEMBE YEZOUM                                  | Population 2010:          776
+   155. LIMBE                                         | Population 2010:       84,223
+   156. LOBO                                          | Population 2010:        1,091
+   157. LOGONE BIRNI                                  | Population 2010:       35,691
+   158. LOLODORF                                      | Population 2010:        4,450
+   159. LOMIE                                         | Population 2010:        4,266
+   160. LOUM                                          | Population 2010:       37,537
+   161. MA'AN                                         | Population 2010:          904
+   162. MADINGRING                                    | Population 2010:        9,551
+   163. MAGA                                          | Population 2010:       15,701
+   164. MAGBA                                         | Population 2010:       19,829
+   165. MAKAK                                         | Population 2010:        8,392
+   166. MAKARY                                        | Population 2010:        6,287
+   167. MAKENENE                                      | Population 2010:       13,974
+   168. MALENTOUEN                                    | Population 2010:       11,661
+   169. MAMFE                                         | Population 2010:       13,046
+   170. MANJO                                         | Population 2010:       26,758
+   171. MANOKA                                        | Population 2010:          517
+   172. MAROUA                                        | Population 2010:       20,137
+   173. MASSANGAM                                     | Population 2010:        8,237
+   174. MASSOK-SONGLOULOU                             | Population 2010:          793
+   175. MATOMB                                        | Population 2010:        2,234
+   176. MAYO BALEO                                    | Population 2010:        3,507
+   177. MAYO OULO                                     | Population 2010:        8,401
+   178. MAYO-DARLE                                    | Population 2010:        7,493
+   179. MAYO-MOSKOTA                                  | Population 2010:        6,281
+   180. MBALMAYO                                      | Population 2010:        5,281
+   181. MBANDJOCK                                     | Population 2010:       18,771
+   182. MBANG                                         | Population 2010:        7,323
+   183. MBANGA                                        | Population 2010:       28,306
+   184. MBANGASSINA                                   | Population 2010:        4,306
+   185. MBANKOMO                                      | Population 2010:        3,429
+   186. MBE                                           | Population 2010:        3,585
+   187. MBENGWI                                       | Population 2010:       10,961
+   188. MBOANZ                                        | Population 2010:        1,613
+   189. MBOMA                                         | Population 2010:        7,263
+   190. MBONGE                                        | Population 2010:        5,287
+   191. MBOTORO                                       | Population 2010:       10,285
+   192. MBOUDA                                        | Population 2010:       46,071
+   193. MBVEN                                         | Population 2010:        5,070
+   194. MEIGANGA                                      | Population 2010:       38,096
+   195. MELONG                                        | Population 2010:       49,180
+   196. MENCHUM VALLEY                                | Population 2010:        7,370
+   197. MENGANG                                       | Population 2010:        2,144
+   198. MENGONG                                       | Population 2010:       13,837
+   199. MENGUEME                                      | Population 2010:        8,234
+   200. MERI                                          | Population 2010:        2,982
+   201. MESSAMENA                                     | Population 2010:        3,180
+   202. MESSOK                                        | Population 2010:        1,627
+   203. MESSONDO                                      | Population 2010:       11,325
+   204. MEYOMESSALA                                   | Population 2010:        1,283
+   205. MFOU                                          | Population 2010:       10,533
+   206. MINDIF                                        | Population 2010:        8,332
+   207. MINTA                                         | Population 2010:        2,151
+   208. MINTOM                                        | Population 2010:        1,322
+   209. MISAJE                                        | Population 2010:        3,601
+   210. MOGODE                                        | Population 2010:        8,421
+   211. MOKOLO                                        | Population 2010:       33,335
+   212. MOLOUNDOU                                     | Population 2010:        4,421
+   213. MOMBO                                         | Population 2010:        4,605
+   214. MONATELE                                      | Population 2010:       10,324
+   215. MORA                                          | Population 2010:       39,440
+   216. MOUANKO                                       | Population 2010:        1,604
+   217. MOULVOUDAYE                                   | Population 2010:       73,833
+   218. MOUTOURWA                                     | Population 2010:        4,570
+   219. MUNDEMBA                                      | Population 2010:        5,236
+   220. MUYUKA                                        | Population 2010:       28,046
+   221. MVANGAN                                       | Population 2010:       16,959
+   222. MVENGUE                                       | Population 2010:        1,326
+   223. NANGA-EBOKO                                   | Population 2010:       18,282
+   224. NDELELE                                       | Population 2010:        4,199
+   225. NDEM-NAM                                      | Population 2010:          595
+   226. NDIKINIMEKI                                   | Population 2010:        8,874
+   227. NDOM                                          | Population 2010:        2,294
+   228. NDOP                                          | Population 2010:       25,740
+   229. NDOUKOULA                                     | Population 2010:        1,454
+   230. NDU                                           | Population 2010:       12,531
+   231. NGAMBE                                        | Population 2010:        2,573
+   232. NGAMBE-TIKAR                                  | Population 2010:        3,562
+   233. NGAOUI                                        | Population 2010:       12,831
+   234. NGAOUNDAL                                     | Population 2010:       25,853
+   235. NGAOUNDERE                                    | Population 2010:      152,698
+   236. NGIE                                          | Population 2010:        1,983
+   237. NGOG MAPUBI                                   | Population 2010:       10,605
+   238. NGOMEDZAP                                     | Population 2010:        2,150
+   239. NGORO                                         | Population 2010:        3,293
+   240. NGOULEMAKONG                                  | Population 2010:        2,682
+   241. NGOUMOU                                       | Population 2010:        5,240
+   242. NGOURA                                        | Population 2010:       26,331
+   243. NGOYLA                                        | Population 2010:        1,271
+   244. NGUELEMENDOUKA                                | Population 2010:        3,549
+   245. NGUIBASSAL                                    | Population 2010:          576
+   246. NGUTI                                         | Population 2010:        4,560
+   247. NIETE                                         | Population 2010:          805
+   248. NITOUKOU                                      | Population 2010:       13,106
+   249. NJINIKOM                                      | Population 2010:        4,975
+   250. NJIWKA                                        | Population 2010:        5,455
+   251. NJOMBE-PENJA                                  | Population 2010:       31,090
+   252. NKAMBE                                        | Population 2010:       17,191
+   253. NKOLAFAMBA                                    | Population 2010:        3,681
+   254. NKOLMETET                                     | Population 2010:       15,297
+   255. NKONDJOCK                                     | Population 2010:        4,232
+   256. NKONG-NI                                      | Population 2010:          824
+   257. NKONGSAMBA                                    | Population 2010:       15,280
+   258. NKOTENG                                       | Population 2010:       17,743
+   259. NLONAKO                                       | Population 2010:        3,412
+   260. NONI                                          | Population 2010:        4,692
+   261. NORD MAKOMBE                                  | Population 2010:          530
+   262. NSEM                                          | Population 2010:          873
+   263. NTUI                                          | Population 2010:       10,500
+   264. NWA                                           | Population 2010:        7,400
+   265. NYAKOKOMBO                                    | Population 2010:        6,173
+   266. NYANON                                        | Population 2010:        2,228
+   267. OBALA                                         | Population 2010:       29,054
+   268. OKOLA                                         | Population 2010:        3,725
+   269. OKU                                           | Population 2010:       28,491
+   270. OLAMZE                                        | Population 2010:        2,042
+   271. OMBESSA                                       | Population 2010:        3,816
+   272. OVENG                                         | Population 2010:          639
+   273. PENKA-MICHEL                                  | Population 2010:        5,258
+   274. PETTE                                         | Population 2010:       10,442
+   275. PITOA                                         | Population 2010:       21,546
+   276. POLI                                          | Population 2010:        8,462
+   277. PORHI                                         | Population 2010:       18,379
+   278. POUMA                                         | Population 2010:        3,154
+   279. POUMOUGNE                                     | Population 2010:       20,354
+   280. REY-BOUBA                                     | Population 2010:        6,754
+   281. SA'A                                          | Population 2010:        9,895
+   282. SALAPOUMBE                                    | Population 2010:        2,947
+   283. SANGMELIMA                                    | Population 2010:       51,330
+   284. SANTA                                         | Population 2010:        8,128
+   285. SANTHOU                                       | Population 2010:        9,428
+   286. SOA                                           | Population 2010:       15,456
+   287. SOMALOMO                                      | Population 2010:          973
+   288. SOULEDE ROUA                                  | Population 2010:        1,881
+   289. TAIBONG                                       | Population 2010:        3,303
+   290. TCHATIBALI                                    | Population 2010:        7,482
+   291. TCHEBOA                                       | Population 2010:       22,565
+   292. TCHOLLIRE                                     | Population 2010:       10,465
+   293. TIBATI                                        | Population 2010:       22,869
+   294. TIGNERE                                       | Population 2010:       11,085
+   295. TIKO                                          | Population 2010:      101,859
+   296. TOKO                                          | Population 2010:          681
+   297. TOKOMBERE                                     | Population 2010:        6,147
+   298. TOMBEL                                        | Population 2010:       15,632
+   299. TONGA                                         | Population 2010:       10,807
+   300. TOUBORO                                       | Population 2010:       18,583
+   301. TOUROUA                                       | Population 2010:        8,849
+   302. TUBAH                                         | Population 2010:       13,068
+   303. UPPER BANYANG                                 | Population 2010:        2,046
+   304. VELE                                          | Population 2010:        4,908
+   305. WABANE                                        | Population 2010:        5,096
+   306. WAZA                                          | Population 2010:        5,646
+   307. WEST COAST                                    | Population 2010:        5,872
+   308. WIDIKUM-MENKA                                 | Population 2010:        7,289
+   309. WINA                                          | Population 2010:        2,227
+   310. WUM                                           | Population 2010:       27,218
+   311. YABASSI                                       | Population 2010:        4,288
+   312. YAGOUA                                        | Population 2010:       37,867
+   313. YAOUNDE 1                                     | Population 2010:      281,586
+   314. YAOUNDE 2                                     | Population 2010:      336,381
+   315. YAOUNDE 3                                     | Population 2010:      252,501
+   316. YAOUNDE 4                                     | Population 2010:      477,350
+   317. YAOUNDE 5                                     | Population 2010:      265,087
+   318. YAOUNDE 6                                     | Population 2010:      268,971
+   319. YINGUI                                        | Population 2010:        1,525
+   320. YOKADOUMA                                     | Population 2010:       21,091
+   321. YOKO                                          | Population 2010:        3,093
+   322. ZINA                                          | Population 2010:       16,908
+   323. ZOETELE                                       | Population 2010:        3,634
+
+====================================================================================================
+🗺️ 8. ALL ADM3 ARRONDISSEMENTS (from GeoBoundaries)
+====================================================================================================
+
+   Total: 360 arrondissements
+
+   298. ABONG-MBANG                                   | Centroid: (3.8662, 13.2515)
+   177. AFANLOUM                                      | Centroid: (4.1422, 12.0577)
+    97. AKO                                           | Centroid: (6.8581, 10.6909)
+   297. AKOM II                                       | Centroid: (2.8230, 10.4429)
+   296. AKONO                                         | Centroid: (3.4880, 11.3015)
+    45. AKONOLINGA                                    | Centroid: (3.8354, 12.3088)
+   112. AKOÃ©MAN                                      | Centroid: (3.2581, 11.5769)
+    63. AKWAYA                                        | Centroid: (6.1347, 9.4489)
+   295. ALOU                                          | Centroid: (5.5572, 9.9278)
+     8. AMBAM                                         | Centroid: (2.4741, 11.2551)
+   294. ANDEK                                         | Centroid: (5.9745, 9.8120)
+   178. ANGOSSAS                                      | Centroid: (4.0855, 12.9548)
+   293. ATOK                                          | Centroid: (3.9179, 12.7716)
+   292. AWAÃ©                                         | Centroid: (3.9061, 11.8356)
+    59. AYOS                                          | Centroid: (4.1138, 12.5463)
+   179. BABADJOU                                      | Centroid: (5.6933, 10.1589)
+   291. BABESSI                                       | Centroid: (6.0337, 10.5146)
+   134. BAFANG                                        | Centroid: (5.1172, 10.1720)
+   121. BAFIA                                         | Centroid: (4.7415, 11.2312)
+    60. BAFOUSSAM I                                   | Centroid: (5.4897, 10.5010)
+    68. BAFOUSSAM II                                  | Centroid: (5.5509, 10.4402)
+   290. BAFOUSSAM III                                 | Centroid: (5.4890, 10.3686)
+   154. BAFUT                                         | Centroid: (6.1543, 10.0727)
+   122. BAHAM                                         | Centroid: (5.3125, 10.3815)
+   289. BAKOU                                         | Centroid: (5.0140, 10.1430)
+   288. BALI                                          | Centroid: (5.8753, 10.0155)
+   287. BALIKUMBAT                                    | Centroid: (5.8731, 10.3906)
+   132. BAMENDA I                                     | Centroid: (5.9161, 10.2088)
+    28. BAMENDA II                                    | Centroid: (5.9710, 10.0981)
+   104. BAMENDA III                                   | Centroid: (5.9915, 10.1819)
+   286. BAMENDJOU                                     | Centroid: (5.3789, 10.3164)
+   100. BAMUSSO                                       | Centroid: (4.4781, 8.9741)
+   285. BANA                                          | Centroid: (5.1209, 10.3018)
+    14. BANDJA                                        | Centroid: (5.2638, 10.2231)
+    15. BANGANGTÃ©                                    | Centroid: (5.1299, 10.6241)
+   131. BANGEM                                        | Centroid: (5.0689, 9.6817)
+   284. BANGOU                                        | Centroid: (5.2240, 10.3687)
+   283. BANGOURAIN                                    | Centroid: (5.9040, 10.7042)
+   282. BANKA                                         | Centroid: (5.1892, 10.1976)
+    79. BANKIM                                        | Centroid: (6.2608, 11.4435)
+   281. BANWA                                         | Centroid: (5.0949, 10.0711)
+    51. BANYO                                         | Centroid: (6.7542, 11.8981)
+    25. BARÃ©                                         | Centroid: (4.9962, 10.0092)
+     9. BASCHÃ©O                                      | Centroid: (9.7896, 13.3637)
+   113. BASSAMBA                                      | Centroid: (5.0498, 10.5688)
+   358. BATCHAM                                       | Centroid: (5.5722, 10.1973)
+   101. BATCHENGA                                     | Centroid: (4.2838, 11.6488)
+   357. BATIBO                                        | Centroid: (5.8277, 9.8955)
+   356. BATIÃ©                                        | Centroid: (5.2878, 10.2955)
+    93. BATOURI                                       | Centroid: (4.4594, 14.3885)
+   355. BAYANGAM                                      | Centroid: (5.2652, 10.4662)
+   354. BAZOU                                         | Centroid: (5.0548, 10.4402)
+    37. BELO                                          | Centroid: (6.1943, 10.3613)
+    19. BENAKUMA                                      | Centroid: (6.4124, 9.8691)
+    24. BENGBIS                                       | Centroid: (3.3001, 12.5035)
+   352. BERTOUA I                                     | Centroid: (4.5409, 13.6489)
+   351. BERTOUA II                                    | Centroid: (4.5570, 13.6975)
+     5. BIBEMI                                        | Centroid: (9.3147, 13.9128)
+   350. BIBEY                                         | Centroid: (5.0327, 12.8433)
+    16. BIKOK                                         | Centroid: (3.5483, 11.4274)
+   349. BIPINDI                                       | Centroid: (3.1979, 10.4319)
+   348. BIWONG-BANÃ©                                  | Centroid: (3.0921, 11.0943)
+   180. BIWONG-BULU                                   | Centroid: (2.7751, 11.5531)
+   347. BIYOUHA                                       | Centroid: (3.7977, 10.7276)
+   346. BLANGOUA                                      | Centroid: (12.7417, 14.5868)
+   345. BOGO                                          | Centroid: (10.7714, 14.6735)
+    62. BOKITO                                        | Centroid: (4.4667, 11.0916)
+   344. BONALÃ©A                                      | Centroid: (4.3277, 9.6774)
+    91. BONDJOCK                                      | Centroid: (3.6686, 11.1198)
+   343. BOT-MAKAK                                     | Centroid: (4.0183, 10.9947)
+   342. BOURHA                                        | Centroid: (10.2506, 13.5698)
+   341. BUEA                                          | Centroid: (4.1607, 9.2246)
+    27. BÃ©KA                                         | Centroid: (8.6167, 12.6200)
+   353. BÃ©LABO                                       | Centroid: (5.1273, 13.3839)
+   110. BÃ©LEL                                        | Centroid: (7.0773, 14.3547)
+    70. BÃ©TARÃ©-OYA                                  | Centroid: (5.6151, 13.7838)
+    64. CAMPO                                         | Centroid: (2.4242, 10.1088)
+   340. DARAK                                         | Centroid: (12.8807, 14.3110)
+   161. DARGALA                                       | Centroid: (10.5394, 14.5738)
+   299. DATCHÃ©KA                                     | Centroid: (9.9978, 15.0516)
+   339. DEMBO                                         | Centroid: (9.7560, 13.5293)
+   338. DEMDING                                       | Centroid: (5.3202, 10.5143)
+    69. DEUK                                          | Centroid: (5.0165, 11.1605)
+   337. DIANG                                         | Centroid: (4.6239, 13.3823)
+   336. DIBAMBA                                       | Centroid: (4.0172, 10.0611)
+   335. DIBANG                                        | Centroid: (3.9658, 10.7532)
+   334. DIBOMBARI                                     | Centroid: (4.1870, 9.5943)
+    43. DIKOME-BALUE                                  | Centroid: (4.7742, 9.1457)
+   333. DIMAKO                                        | Centroid: (4.3423, 13.5892)
+    11. DIR                                           | Centroid: (6.3386, 13.6833)
+   332. DIZANGUÃ©                                     | Centroid: (3.8280, 9.8841)
+    75. DJOHONG                                       | Centroid: (6.9177, 14.8392)
+   165. DJOUM                                         | Centroid: (2.5712, 12.7934)
+   331. DOUALA I                                      | Centroid: (4.0429, 9.6930)
+   330. DOUALA II                                     | Centroid: (4.0155, 9.7156)
+   329. DOUALA III                                    | Centroid: (4.0162, 9.7995)
+    74. DOUALA IV                                     | Centroid: (4.0738, 9.6288)
+   181. DOUALA V                                      | Centroid: (4.1333, 9.7849)
+    31. DOUALA VI                                     | Centroid: (3.9212, 9.5692)
+   328. DOUMAINTANG                                   | Centroid: (4.1768, 13.2176)
+   327. DOUMÃ©                                        | Centroid: (4.3284, 13.3983)
+   326. DSCHANG                                       | Centroid: (5.4231, 10.0256)
+   325. DZENG                                         | Centroid: (3.6707, 11.8370)
+    38. DZIGUILAO                                     | Centroid: (10.0230, 14.7625)
+   324. EBEBDA                                        | Centroid: (4.3973, 11.3526)
+   106. EBOLOWA I                                     | Centroid: (2.9232, 10.9212)
+   123. EBOLOWA II                                    | Centroid: (2.7137, 11.2409)
+   323. EBONE                                         | Centroid: (4.8386, 9.9263)
+    94. EDZENDOUAN                                    | Centroid: (4.2010, 11.7338)
+    76. EFOULAN                                       | Centroid: (3.0605, 10.8291)
+    46. EKONDO-TITI                                   | Centroid: (4.6865, 8.9888)
+   320. ELAK                                          | Centroid: (6.2029, 10.5193)
+   145. ELIG-MFOMO                                    | Centroid: (4.1704, 11.3496)
+   319. ENDOM                                         | Centroid: (3.4730, 12.0613)
+   174. ESSE                                          | Centroid: (4.0969, 11.8536)
+   317. EVODOULA                                      | Centroid: (4.1260, 11.2036)
+   114. EYUMODJOCK                                    | Centroid: (5.6057, 8.9751)
+   316. FIGUIL                                        | Centroid: (9.9183, 14.0689)
+     4. FOKOUÃ©                                       | Centroid: (5.3303, 10.1192)
+     6. FONFUKA                                       | Centroid: (6.5057, 10.4369)
+   182. FONGO-TONGO                                   | Centroid: (5.5471, 10.0108)
+   315. FOTOKOL                                       | Centroid: (12.4509, 14.2840)
+   314. FOUMBAN                                       | Centroid: (5.7102, 10.8783)
+   144. FOUMBOT                                       | Centroid: (5.4289, 10.6463)
+    12. FUNDONG                                       | Centroid: (6.3163, 10.3013)
+    73. FURU-AWA                                      | Centroid: (6.8144, 10.2317)
+   313. GACHIGA                                       | Centroid: (9.4851, 13.2526)
+    32. GALIM                                         | Centroid: (5.7343, 10.4174)
+   111. GALIM-TIGNÃ¨RE                                | Centroid: (7.1570, 12.2332)
+   312. GARI-GOMBO                                    | Centroid: (3.6840, 14.9509)
+   311. GAROUA I                                      | Centroid: (9.3240, 13.3650)
+   310. GAROUA II                                     | Centroid: (9.3440, 13.4255)
+   143. GAROUA III                                    | Centroid: (9.2560, 13.4654)
+    80. GAROUA-BOULAÃ¯                                | Centroid: (5.7299, 14.4344)
+   309. GAZAWA                                        | Centroid: (10.5486, 14.1141)
+   308. GOBO                                          | Centroid: (10.0394, 15.4678)
+    77. GOULFEY                                       | Centroid: (12.4362, 14.7300)
+   307. GUIDER                                        | Centroid: (9.9209, 13.8501)
+   142. GUIDIGUIS                                     | Centroid: (10.0838, 14.6483)
+   120. GUÃ©MÃ©                                       | Centroid: (10.4585, 15.0937)
+   115. GUÃ©RÃ©                                       | Centroid: (10.0968, 15.3133)
+   306. HILÃ© - ALIFA                                 | Centroid: (12.6714, 14.3692)
+   102. HINA                                          | Centroid: (10.3258, 13.8200)
+   305. IDABATO                                       | Centroid: (4.5187, 8.6028)
+   304. IDENAU                                        | Centroid: (4.1785, 9.0503)
+   303. ISANGUELE                                     | Centroid: (4.7933, 8.6460)
+   302. JAKIRI                                        | Centroid: (6.0925, 10.6636)
+   141. KAI-KAI                                       | Centroid: (10.6364, 14.9765)
+   301. KALFOU                                        | Centroid: (10.2748, 15.0273)
+    35. KAR-HAY                                       | Centroid: (10.0875, 14.9633)
+    44. KAÃ©LÃ©                                       | Centroid: (10.1597, 14.3833)
+   125. KENTZOU                                       | Centroid: (4.2770, 14.9478)
+   280. KIIKI                                         | Centroid: (4.6844, 11.1393)
+   162. KOBDOMBO                                      | Centroid: (4.0566, 12.6993)
+   133. KOLOFATA                                      | Centroid: (11.1561, 14.0246)
+   279. KOMBO-ABEDIMO                                 | Centroid: (4.6005, 8.5970)
+   278. KOMBO-ITINDI                                  | Centroid: (4.6651, 8.7556)
+   277. KON-YAMBETTA                                  | Centroid: (4.8276, 11.0615)
+   167. KONTCHA                                       | Centroid: (8.0323, 12.2830)
+   103. KONYE                                         | Centroid: (4.8701, 9.3486)
+   163. KOUOPTAMO                                     | Centroid: (5.6687, 10.5686)
+   172. KOUSSÃ©RI                                     | Centroid: (12.0687, 14.9829)
+   276. KOUTABA                                       | Centroid: (5.6682, 10.7286)
+   275. KOZA                                          | Centroid: (10.8960, 13.8956)
+   359. KRIBI I                                       | Centroid: (2.8149, 9.9202)
+    81. KRIBI II                                      | Centroid: (3.0175, 9.9740)
+   274. KUMBA I                                       | Centroid: (4.5506, 9.3311)
+   273. KUMBA II                                      | Centroid: (4.7229, 9.4577)
+   272. KUMBA III                                     | Centroid: (4.5166, 9.4615)
+   271. KUMBO                                         | Centroid: (6.2159, 10.7102)
+   270. KYÃ©-OSSI                                     | Centroid: (2.2335, 11.2779)
+   300. KÃ©KEM                                        | Centroid: (5.1750, 10.0711)
+    34. KÃ©TTÃ©                                       | Centroid: (4.7747, 14.5196)
+   269. LAGDO                                         | Centroid: (8.7707, 13.5678)
+    95. LEMBE YEZOUM                                  | Centroid: (4.2621, 12.1937)
+   268. LIMBÃ© I                                      | Centroid: (4.0407, 9.2508)
+   267. LIMBÃ© II                                     | Centroid: (4.0336, 9.1493)
+   266. LIMBÃ© III                                    | Centroid: (3.9660, 9.3000)
+   265. LOBO                                          | Centroid: (3.9111, 11.2495)
+    39. LOGONE-BIRNI                                  | Centroid: (11.8133, 14.8727)
+    85. LOKOUNDJÃ©                                    | Centroid: (3.1715, 10.1122)
+   157. LOLODORF                                      | Centroid: (3.2692, 10.6921)
+   152. LOMIÃ©                                        | Centroid: (3.1454, 13.5370)
+   264. LOUM                                          | Centroid: (4.6987, 9.8123)
+    92. MA'AN                                         | Centroid: (2.4318, 10.6842)
+   263. MADINGRING                                    | Centroid: (8.2355, 14.9863)
+   262. MAGA                                          | Centroid: (10.8860, 14.9323)
+     2. MAGBA                                         | Centroid: (6.0714, 11.1428)
+   261. MAKAK                                         | Centroid: (3.5397, 11.0442)
+   116. MAKARY                                        | Centroid: (12.4213, 14.5270)
+   147. MAKENENE                                      | Centroid: (4.8723, 10.6896)
+    18. MALENTOUEN                                    | Centroid: (5.6813, 11.1294)
+    40. MAMFE                                         | Centroid: (5.6275, 9.3370)
+   260. MANDJOU                                       | Centroid: (4.7701, 13.8326)
+   259. MANJO                                         | Centroid: (4.8426, 9.7926)
+   151. MAROUA I                                      | Centroid: (10.5492, 14.2701)
+   107. MAROUA II                                     | Centroid: (10.6366, 14.3171)
+   258. MAROUA III                                    | Centroid: (10.7806, 14.4039)
+    52. MARTAP                                        | Centroid: (7.1959, 13.1978)
+   173. MASSANGAM                                     | Centroid: (5.3080, 10.9100)
+   257. MASSOK                                        | Centroid: (4.1274, 10.6289)
+   256. MATOMB                                        | Centroid: (3.8222, 11.0836)
+   146. MAYO-BALÃ©O                                   | Centroid: (7.6871, 12.3048)
+   135. MAYO-DARLÃ©                                   | Centroid: (6.4902, 11.6182)
+   255. MAYO-HOURNA                                   | Centroid: (9.3427, 13.1236)
+    13. MAYO-OULO                                     | Centroid: (10.0071, 13.6022)
+   254. MBALMAYO                                      | Centroid: (3.4874, 11.5500)
+   253. MBANDJOCK                                     | Centroid: (4.4386, 11.8759)
+   140. MBANG                                         | Centroid: (3.9727, 14.2021)
+   155. MBANGA                                        | Centroid: (4.4203, 9.5715)
+   252. MBANGASSINA                                   | Centroid: (4.5897, 11.4624)
+    17. MBANKOMO                                      | Centroid: (3.7741, 11.3534)
+   136. MBENGWI                                       | Centroid: (6.0434, 9.9596)
+    50. MBIAME                                        | Centroid: (6.1502, 10.8934)
+    65. MBOMA                                         | Centroid: (4.1987, 12.9111)
+     1. MBONGE                                        | Centroid: (4.4100, 9.1400)
+    96. MBOUDA                                        | Centroid: (5.6248, 10.3195)
+   148. MBÃ©                                          | Centroid: (7.7729, 13.5526)
+   117. MEIGANGA                                      | Centroid: (6.4272, 14.3698)
+   251. MENGANG                                       | Centroid: (3.8414, 12.0860)
+   250. MENGONG                                       | Centroid: (2.9268, 11.4229)
+   249. MENGUEME                                      | Centroid: (3.2507, 11.3707)
+   248. MENJI                                         | Centroid: (5.4456, 9.8577)
+   247. MERI                                          | Centroid: (10.7315, 14.1952)
+   246. MESSAMÃ©NA                                    | Centroid: (3.6186, 12.8798)
+    89. MESSOCK                                       | Centroid: (3.0483, 14.1706)
+   245. MESSONDO                                      | Centroid: (3.5719, 10.4952)
+   105. MEYOMESSALA                                   | Centroid: (3.0908, 12.2554)
+   175. MEYOMESSI                                     | Centroid: (2.7549, 12.2631)
+   244. MFOU                                          | Centroid: (3.6804, 11.6214)
+   108. MINDIF                                        | Centroid: (10.3944, 14.4707)
+   171. MINDOUROU                                     | Centroid: (3.5883, 13.7884)
+   243. MINTA                                         | Centroid: (4.6729, 12.9713)
+   119. MINTOM                                        | Centroid: (2.5272, 13.4024)
+   149. MISAJE                                        | Centroid: (6.7029, 10.5467)
+   242. MOGODÃ©                                       | Centroid: (10.5190, 13.6442)
+    42. MOKOLO                                        | Centroid: (10.6318, 13.8479)
+   241. MOMBO                                         | Centroid: (4.5590, 9.5794)
+   240. MONATÃ©LÃ©                                    | Centroid: (4.2492, 11.2523)
+   239. MORA                                          | Centroid: (11.1263, 14.2815)
+    90. MOUANKO                                       | Centroid: (3.6054, 9.8269)
+    41. MOULOUNDOU                                    | Centroid: (2.2097, 15.4515)
+   164. MOULVOUDAYE                                   | Centroid: (10.3968, 14.7721)
+   150. MOUTOURWA                                     | Centroid: (10.2448, 14.1431)
+    98. MOZOGO                                        | Centroid: (11.0283, 13.8772)
+    99. MUDEMBA                                       | Centroid: (4.9903, 8.9128)
+   238. MUYUKA                                        | Centroid: (4.3258, 9.3367)
+   237. MVANGAN                                       | Centroid: (2.5209, 11.8925)
+   236. MVENGUE                                       | Centroid: (3.2720, 10.9833)
+     3. MÃ©LONG                                       | Centroid: (5.1641, 9.8821)
+    33. NANGA-EBOKO                                   | Centroid: (4.7525, 12.4410)
+    71. NDIKINIMÃ©KI                                  | Centroid: (4.6663, 10.6794)
+   235. NDOBIAN                                       | Centroid: (4.9598, 10.3283)
+   234. NDOM                                          | Centroid: (4.4264, 10.8403)
+   233. NDOP                                          | Centroid: (5.9300, 10.5056)
+   232. NDOUKOULA                                     | Centroid: (10.3618, 14.0707)
+   109. NDU                                           | Centroid: (6.4110, 10.8511)
+    72. NDÃ©LÃ©LÃ©                                    | Centroid: (4.0308, 14.7987)
+   231. NGAMBÃ©                                       | Centroid: (4.3156, 10.6105)
+    47. NGAMBÃ©-TIKAR                                 | Centroid: (5.7211, 11.6433)
+    48. NGAN'HA                                       | Centroid: (7.4509, 13.8807)
+   183. NGAOUI                                        | Centroid: (6.7895, 14.9599)
+   166. NGAOUNDAL                                     | Centroid: (6.3518, 13.1403)
+   230. NGAOUNDÃ©RÃ© I                                | Centroid: (7.2656, 13.5306)
+   229. NGAOUNDÃ©RÃ© II                               | Centroid: (7.3527, 13.6326)
+   228. NGAOUNDÃ©RÃ© III                              | Centroid: (7.4937, 13.5697)
+   227. NGOG-MAPUBI                                   | Centroid: (3.9019, 10.8914)
+   226. NGOMEDZAP                                     | Centroid: (3.3223, 11.2108)
+   225. NGONG                                         | Centroid: (8.9679, 13.2916)
+    29. NGORO                                         | Centroid: (4.9379, 11.4701)
+   224. NGOULÃ©MAKONG                                 | Centroid: (3.0848, 11.4846)
+   223. NGOUMOU                                       | Centroid: (3.6319, 11.2971)
+    10. NGOURA                                        | Centroid: (4.8980, 14.1192)
+   222. NGOYLA                                        | Centroid: (2.5143, 14.1025)
+   220. NGUELEMENDOUKA                                | Centroid: (4.4109, 12.9726)
+   219. NGUIBASSAL                                    | Centroid: (4.0834, 11.0683)
+    26. NGUTI                                         | Centroid: (5.2659, 9.5448)
+   221. NGUÃ©LÃ©BOK                                   | Centroid: (4.1915, 13.8195)
+   218. NGWEI                                         | Centroid: (3.7706, 10.3227)
+   217. NIJKWA                                        | Centroid: (6.1325, 9.8301)
+    23. NITOUKOU                                      | Centroid: (4.6528, 10.8951)
+   156. NIÃ©TÃ©                                       | Centroid: (2.7288, 10.1233)
+    67. NJIMOM                                        | Centroid: (5.8942, 10.9419)
+   169. NJINIKOM                                      | Centroid: (6.2257, 10.2207)
+   158. NKAMBE                                        | Centroid: (6.5542, 10.7417)
+   216. NKOL-MÃ©TET                                   | Centroid: (3.4358, 11.7543)
+    30. NKOLAFAMBA                                    | Centroid: (3.8244, 11.6992)
+    66. NKONDJOCK                                     | Centroid: (4.7957, 10.1831)
+   213. NKONG-ZEM                                     | Centroid: (5.5098, 10.1150)
+   215. NKONGSAMBA I                                  | Centroid: (4.8994, 10.0110)
+   138. NKONGSAMBA II                                 | Centroid: (4.9846, 9.9252)
+   214. NKONGSAMBA III                                | Centroid: (4.9768, 9.8893)
+   212. NKOR                                          | Centroid: (6.3611, 10.5987)
+   159. NKOTENG                                       | Centroid: (4.4826, 12.1478)
+   211. NKUM                                          | Centroid: (6.3183, 10.7609)
+   184. NSEM                                          | Centroid: (4.9186, 12.9168)
+   118. NTUI                                          | Centroid: (4.5355, 11.6667)
+     7. NWA                                           | Centroid: (6.4933, 11.0241)
+   126. NYAMBAKA                                      | Centroid: (6.9339, 13.7570)
+   210. NYANON                                        | Centroid: (4.2132, 10.9200)
+   209. OBALA                                         | Centroid: (4.1279, 11.5121)
+   208. OKALA                                         | Centroid: (4.0083, 11.3495)
+   207. OLAMZÃ©                                       | Centroid: (2.2154, 10.9735)
+   206. OLANGUINA                                     | Centroid: (3.9896, 12.0258)
+   205. OMBESSA                                       | Centroid: (4.6160, 11.3165)
+   128. OULI                                          | Centroid: (5.1057, 14.5676)
+   204. OVENG                                         | Centroid: (2.4461, 12.2832)
+   203. PENJA                                         | Centroid: (4.5726, 9.6977)
+   202. PENKA-MICHEL                                  | Centroid: (5.4425, 10.2382)
+    87. PETE-BANDJOUN                                 | Centroid: (5.3936, 10.4423)
+    57. PITOA                                         | Centroid: (9.4707, 13.6197)
+   176. POLI                                          | Centroid: (8.1911, 12.9210)
+   201. POUMA                                         | Centroid: (3.9249, 10.5665)
+   168. PÃ©TTÃ©                                       | Centroid: (10.9637, 14.5446)
+    58. REY-BOUBA                                     | Centroid: (8.7991, 14.3645)
+   200. SA'A                                          | Centroid: (4.3403, 11.4850)
+   199. SALAPOUMBÃ©                                   | Centroid: (2.6456, 15.3228)
+   130. SANGMÃ©LIMA                                   | Centroid: (2.9256, 11.9057)
+   198. SANTA                                         | Centroid: (5.8042, 10.1445)
+    21. SANTCHOU                                      | Centroid: (5.2959, 9.9669)
+   160. SOA                                           | Centroid: (3.9951, 11.5985)
+   197. SOMALOMO                                      | Centroid: (3.3188, 12.9521)
+   170. SOULÃ¨DÃ©-ROUA                                | Centroid: (10.7708, 13.9795)
+    56. TABATI                                        | Centroid: (6.5216, 12.5497)
+    78. TCHATIBALI                                    | Centroid: (9.9889, 14.8800)
+   139. TCHOLLIRÃ©                                    | Centroid: (8.0317, 14.0593)
+   360. TIGNÃ¨RE                                      | Centroid: (7.3735, 12.7049)
+   196. TIKO                                          | Centroid: (4.0916, 9.4114)
+   195. TINTO                                         | Centroid: (5.6308, 9.7066)
+    82. TOKO                                          | Centroid: (5.1701, 9.1095)
+   137. TOKOMBÃ©RÃ©                                   | Centroid: (10.8741, 14.1288)
+    53. TOMBEL                                        | Centroid: (4.8576, 9.6042)
+   194. TONGA                                         | Centroid: (4.9600, 10.5662)
+    20. TOUBORO                                       | Centroid: (7.6132, 15.0012)
+   129. TOULOUM                                       | Centroid: (10.1954, 14.8389)
+   193. TOUROUA                                       | Centroid: (9.0413, 12.9949)
+   192. TUBAH                                         | Centroid: (6.0386, 10.2868)
+   191. WABANE                                        | Centroid: (5.6701, 9.9815)
+    86. WAZA                                          | Centroid: (11.3771, 14.6996)
+   124. WIDIKUM-BOFFÃ©                                | Centroid: (5.9395, 9.7092)
+    88. WINA                                          | Centroid: (10.0495, 15.1184)
+    61. WUM                                           | Centroid: (6.3712, 10.0803)
+    83. YABASSI                                       | Centroid: (4.3975, 10.0039)
+   190. YAGOUA                                        | Centroid: (10.2059, 15.2286)
+   189. YAOUNDÃ© I                                    | Centroid: (3.9283, 11.5216)
+   188. YAOUNDÃ© II                                   | Centroid: (3.9031, 11.4890)
+    54. YAOUNDÃ© III                                  | Centroid: (3.7827, 11.4747)
+    55. YAOUNDÃ© IV                                   | Centroid: (3.8185, 11.5317)
+   127. YAOUNDÃ© V                                    | Centroid: (3.8980, 11.5511)
+   153. YAOUNDÃ© VI                                   | Centroid: (3.8391, 11.4766)
+   187. YAOUNDÃ© VII                                  | Centroid: (3.8751, 11.4484)
+    49. YINGUI                                        | Centroid: (4.4403, 10.3433)
+    36. YOKADOUMA                                     | Centroid: (3.1203, 15.1556)
+    84. YOKO                                          | Centroid: (5.4540, 12.2334)
+    22. ZHOA                                          | Centroid: (6.6115, 10.0650)
+   186. ZINA                                          | Centroid: (11.1937, 14.9509)
+   185. ZOÃ©TÃ©LÃ©                                    | Centroid: (3.2698, 11.8851)
+   322. ÃDÃ©A I                                      | Centroid: (3.5436, 10.0458)
+   321. ÃDÃ©A II                                     | Centroid: (4.0003, 10.2884)
+   318. ÃSÃ©KA                                       | Centroid: (3.6336, 10.8311)
+
+====================================================================================================
+🔍 9. ARRONDISSEMENT NAME COMPARISON (Config vs ADM3)
+====================================================================================================
+
+   ✅ Exact matches: 237 / 361
+
+   Matching arrondissements:
+      - ABONG-MBANG
+      - AFANLOUM
+      - AKO
+      - AKOM II
+      - AKONO
+      - AKONOLINGA
+      - AKWAYA
+      - ALOU
+      - AMBAM
+      - AYOS
+      - BABADJOU
+      - BABESSI
+      - BAFANG
+      - BAFIA
+      - BAFOUSSAM I
+      - BAFOUSSAM II
+      - BAFOUSSAM III
+      - BAFUT
+      - BAHAM
+      - BAKOU
+      ... and 217 more
+
+   ⚠️ Config arrondissements NOT in ADM3: 124
+      - ABO
+      - AKOEMAN
+      - ASSAMBA
+      - AWAE
+      - BAMENDA 1
+      - BAMENDA 2
+      - BAMENDA 3
+      - BANGANGTE
+      - BARE-BAKEM
+      - BASCHEO
+      - BATIE
+      - BATSCHENGA
+      - BEBEND
+      - BEKA
+      - BELABO
+      - BELEL
+      - BETARE-OYA
+      - BIWONG-BANE
+      - BOMBE
+      - BUM
+      - DATCHEKA
+      - DEMSA
+      - DIKOMBA BALUE
+      - DIZANGUE
+      - DJA
+      - DJEBEM
+      - DOUME
+      - EDEA I
+      - EDEA II
+      - ESEAK
+      ... and 94 more
+
+   ⚠️ ADM3 arrondissements NOT in Config: 123
+      - AKOÃ©MAN
+      - ANDEK
+      - ANGOSSAS
+      - ATOK
+      - AWAÃ©
+      - BAMENDA I
+      - BAMENDA II
+      - BAMENDA III
+      - BANGANGTÃ©
+      - BARÃ©
+      - BASCHÃ©O
+      - BATCHENGA
+      - BATIÃ©
+      - BENAKUMA
+      - BIWONG-BANÃ©
+      - BONALÃ©A
+      - BÃ©KA
+      - BÃ©LABO
+      - BÃ©LEL
+      - BÃ©TARÃ©-OYA
+      - DATCHÃ©KA
+      - DEMDING
+      - DIKOME-BALUE
+      - DIZANGUÃ©
+      - DOUMÃ©
+      - DZIGUILAO
+      - EBONE
+      - ELAK
+      - FOKOUÃ©
+      - FONFUKA
+      ... and 93 more
+
+====================================================================================================
+🏘️ 10. ALL VILLAGES FROM WOF (First 100)
+====================================================================================================
+
+   Total unique villages: 11,536
+
+      1. ABA
+      2. ABA TCHABI
+      3. ABABA
+      4. ABABITA
+      5. ABAFUM
+      6. ABAGOURE
+      7. ABAKOUM
+      8. ABAKPA
+      9. ABALA
+     10. ABAM
+     11. ABAMBA
+     12. ABANG
+     13. ABANG I
+     14. ABANG II
+     15. ABANG MINDI
+     16. ABANG-MINKO
+     17. ABANGA
+     18. ABANGNANG
+     19. ABANGOK
+     20. ABARI
+     21. ABASSOUNI I
+     22. ABASSOUNI II
+     23. ABAT
+     24. ABAWESONG
+     25. ABBAFUM
+     26. ABE
+     27. ABEBUNG
+     28. ABEGANGA
+     29. ABEK
+     30. ABEL
+     31. ABEM
+     32. ABEMBE I
+     33. ABEMBE II
+     34. ABENDOMAN
+     35. ABENDOURWA
+     36. ABENE
+     37. ABENG KORO
+     38. ABESHIA
+     39. ABESHOM
+     40. ABEYDA
+     41. ABIATE
+     42. ABIETE
+     43. ABILI
+     44. ABIMOA
+     45. ABIROU
+     46. ABKOUS HAMALDIE
+     47. ABKOUS KAWALME
+     48. ABLANKAY
+     49. ABODEMVING
+     50. ABODI
+     51. ABOELON
+     52. ABOKI
+     53. ABOM
+     54. ABOMBO
+     55. ABONANDO
+     56. ABONDO
+     57. ABONG DOUM
+     58. ABONG-MBANG
+     59. ABONIS
+     60. ABONKWA
+     61. ABONO
+     62. ABONSE
+     63. ABOU
+     64. ABOU DJALI
+     65. ABOU TABILO
+     66. ABOU YAKOUBA
+     67. ABOUDANGALA CHIA
+     68. ABOUDANGALA KABIR
+     69. ABOUDOURWA
+     70. ABOUE
+     71. ABOUFALA
+     72. ABOUGOUDOUT
+     73. ABOUHAMA
+     74. ABOUKANOU
+     75. ABOULOU
+     76. ABOUMZOK
+     77. ABOUNGUELA
+     78. ABOUSSOULTOUK
+     79. ABOUT
+     80. ABU
+     81. ABUMANDJALE
+     82. ABUNDE
+     83. ABUNEMRI
+     84. ABWAYORTANG
+     85. ACHA TUGUI
+     86. ACHAMA
+     87. ACHANG
+     88. ADA
+     89. ADAKELE
+     90. ADAMOU
+     91. ADDI
+     92. ADERE
+     93. ADI
+     94. ADIA
+     95. ADIAN
+     96. ADIBE
+     97. ADIGANDE
+     98. ADJAIN
+     99. ADJALA
+    100. ADJANDOUNGA
+
+   ... and 11436 more villages
+
+====================================================================================================
+📊 11. WOF COUNTY_ID DISTRIBUTION (Unique Department IDs)
+====================================================================================================
+
+   Unique county_ids: 75
+
+   Sample county_id to name mapping:
+      county_id 1092012225: Bandjoun
+      county_id 1092011153: Mouangko
+      county_id 1092010619: Wum
+      county_id 1092012139: Kribi
+      county_id 1092010823: Muyuka
+      county_id 1092010791: Mundemba
+      county_id 1092011899: Mokolo
+      county_id 1092010759: Fundong
+      county_id 1092010521: Foumbot
+      county_id 1092012079: Évodoula
+      county_id 1092011633: Djohong
+      county_id 1092010971: Bana
+      county_id 1092011703: Rey Bouba
+      county_id 1092011545: Tignère
+      county_id 1092010921: Soa
+      county_id 1092010493: Bazou
+      county_id 1092011501: Banyo
+      county_id 1092011209: Ngomedzap
+      county_id 1092011395: Bélabo
+      county_id 1092011581: Bélel
+
+====================================================================================================
+📊 12. WOF REGION_ID DISTRIBUTION
+====================================================================================================
+
+   Unique region_ids: 23
+
+   Sample region_id to name mapping:
+      region_id 85669961: Bandjoun
+      region_id 85669937: Mouangko
+      region_id 85669941: Wum
+      region_id 85669971: Kribi
+      region_id 85669967: Muyuka
+      region_id 85669933: Mokolo
+      region_id 85669945: Évodoula
+      region_id 85669953: Djohong
+      region_id 85669957: Rey Bouba
+      region_id 85669949: Bélabo
+
+====================================================================================================
+💡 13. SUMMARY AND RECOMMENDATIONS
+====================================================================================================
+
+    DATA SUMMARY:
+    =============
+    Config Departments:        58
+    ADM2 Departments:          60
+    Department matches:        32
+
+    Config Arrondissements:    361
+    ADM3 Arrondissements:      360
+    Arrondissement matches:    237
+
+    WOF Villages:              11,536
+    WOF Unique county_ids:     0
+    WOF Unique region_ids:     0
+
+    RECOMMENDATIONS:
+    ================
+    1. The column 'Department_WOF' doesn't exist - need to create it from spatial matching
+    2. Use ADM2 centroids to assign villages to departments spatially
+    3. Use ADM3 centroids to assign villages to arrondissements spatially
+    4. Create mapping: Department_WOF = closest ADM2 department name
+    5. Create mapping: Arrondissement_WOF = closest ADM3 arrondissement name
+    
+
+====================================================================================================
+✅ DIAGNOSTIC COMPLETE
+====================================================================================================

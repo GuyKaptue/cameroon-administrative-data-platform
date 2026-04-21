@@ -1,0 +1,92 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cameroon-administrative-data-platform"
+version = "0.2.0"
+description = "A geospatial and demographic data platform for Cameroon: administrative hierarchy, postal codes, population simulation, and WOF/GeoBoundaries integration."
+readme = "README.md"
+license = { file = "LICENSE" }
+
+authors = [
+    { name = "Guy M. Kaptue T.", email = "guykaptue24@gmail.com" }
+]
+
+requires-python = ">=3.10"
+
+keywords = [
+    "Cameroon",
+    "geospatial",
+    "administrative-data",
+    "postal-codes",
+    "population-simulation",
+    "GeoBoundaries",
+    "WOF",
+    "GIS",
+    "data-platform",
+    "streamlit",
+    "folium",
+    "plotly"
+]
+
+dependencies = [
+    # Core dependencies
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "geopandas>=0.14.0",
+    "scikit-learn>=1.3.0",
+    "shapely>=2.0.0",
+
+    # Visualization
+    "streamlit>=1.28.0",
+    "plotly>=5.18.0",
+    "folium>=0.14.0",
+    "streamlit-folium>=0.15.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+
+    # Optional / Advanced
+    "openpyxl>=3.1.0",
+    "xlsxwriter>=3.1.0",
+
+    # Progress bars
+    "tqdm>=4.65.0",
+
+    # Optimization libraries
+    "cma>=3.3.0",
+    "optuna>=3.4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/GuyKaptue"
+Repository = "https://github.com/GuyKaptue/cameroon-administrative-data-platform"
+Issues = "https://github.com/GuyKaptue/cameroon-administrative-data-platform/issues"
+
+# ---------------------------------------------------------
+# 🚀 RUN SCRIPTS (CLI commands)
+# ---------------------------------------------------------
+[project.scripts]
+cameroon-generate = "src.scripts.generate_dataset:console_main"
+cameroon-check = "src.scripts.check_data:console_main"
+cameroon-dashboard = "src.visualization.dashboard:console_main"
+
+# ---------------------------------------------------------
+# Packaging
+# ---------------------------------------------------------
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["core*", "scripts*", "visualization*"]
+
+# ---------------------------------------------------------
+# Code style
+# ---------------------------------------------------------
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"

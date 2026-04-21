@@ -1,0 +1,235 @@
+{
+  "regional_multipliers": {
+    "EXTREME-NORD": 0.9880466972153317,
+    "NORD": 0.9540260497876154,
+    "ADAMAOUA": 1.0083049349646052,
+    "OUEST": 0.8613953964779777,
+    "SUD": 0.9836402813125742,
+    "EST": 1.0393084215617225,
+    "SUD-OUEST": 0.9533795970781288,
+    "NORD-OUEST": 0.9318063355083556,
+    "CENTRE": 0.7418113034804066,
+    "LITTORAL": 0.7032059585369655
+  },
+  "regional_targets_2026": {
+    "CENTRE": 5500000,
+    "LITTORAL": 4300000,
+    "EXTREME-NORD": 4500000,
+    "NORD": 3100000,
+    "NORD-OUEST": 2200000,
+    "OUEST": 2100000,
+    "SUD-OUEST": 1800000,
+    "ADAMAOUA": 1400000,
+    "EST": 1100000,
+    "SUD": 900000
+  },
+  "regional_optimization_weights": {
+    "EXTREME-NORD": 1.2,
+    "NORD": 1.0,
+    "ADAMAOUA": 0.8,
+    "OUEST": 1.0,
+    "SUD": 0.7,
+    "EST": 0.6,
+    "SUD-OUEST": 0.9,
+    "NORD-OUEST": 0.8,
+    "CENTRE": 2.0,
+    "LITTORAL": 2.0
+  },
+  "major_cities_2025": {
+    "YAOUNDE": 5106087,
+    "DOUALA": 4104516,
+    "GAROUA": 678769,
+    "MAROUA": 526702,
+    "BAMENDA": 394155,
+    "NGAOUNDERE": 345148,
+    "KUMBA": 329340,
+    "BAFOUSSAM": 321489,
+    "KOUSSERI": 244247,
+    "BERTOUA": 235399,
+    "LIMBE": 233212,
+    "BUEA": 222996,
+    "MOKOLO": 190418,
+    "GUIDER": 187887,
+    "FOUMBAN": 182273
+  },
+  "city_optimization_weights": {
+    "YAOUNDE": 2.0,
+    "DOUALA": 2.0,
+    "GAROUA": 1.0,
+    "MAROUA": 1.0,
+    "BAMENDA": 1.0,
+    "NGAOUNDERE": 0.8,
+    "KUMBA": 0.8,
+    "BAFOUSSAM": 0.8
+  },
+  "city_department_map": {
+    "DOUALA": "WOURI",
+    "YAOUNDE": "MFOUNDI",
+    "GAROUA": "BENOUE",
+    "MAROUA": "DIAMARE",
+    "BAMENDA": "MEZAM",
+    "NGAOUNDERE": "VINA",
+    "KUMBA": "MEME",
+    "BAFOUSSAM": "MIFI",
+    "KOUSSERI": "LOGONE-ET-CHARI",
+    "BERTOUA": "LOM-ET-DJEREM",
+    "LIMBE": "FAKO",
+    "BUEA": "FAKO",
+    "MOKOLO": "MAYO-TSANAGA",
+    "GUIDER": "MAYO-LOUTI",
+    "FOUMBAN": "NOUN"
+  },
+  "un_population_targets": {
+    "2005": 17074594,
+    "2010": 19668066,
+    "2015": 22763414,
+    "2020": 26210558,
+    "2025": 29879337,
+    "2026": 30640817,
+    "2030": 33777190,
+    "2035": 37893818,
+    "2040": 42208003,
+    "2045": 46629039,
+    "2050": 51096317
+  },
+  "period_growth_rates": {
+    "2005-2010": 0.0287,
+    "2010-2015": 0.0297,
+    "2015-2020": 0.0286,
+    "2020-2025": 0.0268
+  },
+  "annual_growth_rates": {
+    "2005": 0.0274,
+    "2006": 0.0274,
+    "2007": 0.0274,
+    "2008": 0.0274,
+    "2009": 0.0274,
+    "2010": 0.0287,
+    "2011": 0.0287,
+    "2012": 0.0287,
+    "2013": 0.0287,
+    "2014": 0.0287,
+    "2015": 0.0297,
+    "2016": 0.0297,
+    "2017": 0.0297,
+    "2018": 0.0297,
+    "2019": 0.0297,
+    "2020": 0.0286,
+    "2021": 0.0286,
+    "2022": 0.0286,
+    "2023": 0.0286,
+    "2024": 0.0286,
+    "2025": 0.0268
+  },
+  "urbanization_targets": {
+    "2005": 0.495,
+    "2010": 0.524,
+    "2015": 0.547,
+    "2020": 0.57,
+    "2025": 0.594,
+    "2026": 0.598,
+    "2030": 0.617
+  },
+  "regional_urbanization_2005": {
+    "LITTORAL": 0.85,
+    "CENTRE": 0.75,
+    "OUEST": 0.45,
+    "SUD-OUEST": 0.4,
+    "NORD-OUEST": 0.35,
+    "NORD": 0.3,
+    "EXTREME-NORD": 0.25,
+    "SUD": 0.25,
+    "ADAMAOUA": 0.2,
+    "EST": 0.18
+  },
+  "regional_urbanization_trends": {
+    "LITTORAL": 0.006,
+    "CENTRE": 0.008,
+    "OUEST": 0.01,
+    "SUD-OUEST": 0.008,
+    "NORD-OUEST": 0.006,
+    "NORD": 0.005,
+    "EXTREME-NORD": 0.004,
+    "SUD": 0.004,
+    "ADAMAOUA": 0.003,
+    "EST": 0.003
+  },
+  "regional_fertility_indices": {
+    "EXTREME-NORD": 1.15,
+    "NORD": 1.12,
+    "ADAMAOUA": 1.1,
+    "NORD-OUEST": 1.05,
+    "OUEST": 1.03,
+    "EST": 1.02,
+    "SUD": 1.0,
+    "CENTRE": 0.95,
+    "LITTORAL": 0.93,
+    "SUD-OUEST": 0.98
+  },
+  "regional_mortality_indices": {
+    "EXTREME-NORD": 1.12,
+    "NORD": 1.1,
+    "ADAMAOUA": 1.08,
+    "NORD-OUEST": 1.05,
+    "SUD-OUEST": 1.05,
+    "OUEST": 1.02,
+    "EST": 1.02,
+    "SUD": 1.0,
+    "CENTRE": 0.95,
+    "LITTORAL": 0.93
+  },
+  "model_parameters": {
+    "alpha_fert": 0.899983336119433,
+    "alpha_mort": 0.853325550414244,
+    "alpha_urban": 0.6000334973152348,
+    "gamma_urban": 0.2385206515827651,
+    "delta_rural": 0.19367643995274722,
+    "delta_increase": 0.00933554314382269,
+    "city_factor_max": 3.0,
+    "city_factor_min": 0.5
+  },
+  "parameter_bounds": {
+    "alpha_fert": [
+      0.1,
+      1.0
+    ],
+    "alpha_mort": [
+      0.05,
+      1.0
+    ],
+    "alpha_urban": [
+      0.01,
+      0.8
+    ],
+    "gamma_urban": [
+      0.01,
+      0.5
+    ],
+    "delta_rural": [
+      0.0,
+      0.2
+    ],
+    "delta_increase": [
+      0.0,
+      0.01
+    ]
+  },
+  "regional_multiplier_bounds": [
+    0.7,
+    1.3
+  ],
+  "validation_thresholds": {
+    "national_diff_percent": 2.0,
+    "regional_diff_percent": 20.0,
+    "urbanization_diff_percent": 10.0,
+    "arrondissement_growth_diff": 0.02
+  },
+  "demographic_indicators_2026": {
+    "median_age": 18.2,
+    "fertility_rate": 4.12,
+    "life_expectancy": 64.5,
+    "infant_mortality": 43.6,
+    "under_5_mortality": 62.3,
+    "population_density": 65.0
+  }
+}

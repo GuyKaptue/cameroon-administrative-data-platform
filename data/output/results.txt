@@ -1,0 +1,706 @@
+📁 Using default project root: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform
+======================================================================
+✅ Configuration Loaded Successfully!
+======================================================================
+📁 Project root: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform
+📁 Data directory: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data
+📁 External data: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external
+📁 Output directory: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/output
+======================================================================
+
+📊 POPULATION DATA SUMMARY:
+   • 2005 Arrondissements: 361
+   • 2010 Arrondissements: 323
+   • UN 2005 Population: 17,074,594
+   • UN 2010 Population: 19,668,066
+   • UN 2025 Population: 29,879,337
+======================================================================
+✅ Using config from module import
+📁 Using default project root: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform
+======================================================================
+✅ Configuration Loaded Successfully!
+======================================================================
+📁 Project root: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform
+📁 Data directory: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data
+📁 External data: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external
+📁 Output directory: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/output
+======================================================================
+
+📊 POPULATION DATA SUMMARY:
+   • 2005 Arrondissements: 361
+   • 2010 Arrondissements: 323
+   • UN 2005 Population: 17,074,594
+   • UN 2010 Population: 19,668,066
+   • UN 2025 Population: 29,879,337
+======================================================================
+✅ Using config from module import
+
+================================================================================
+🔧 CAMEROON POPULATION MODEL OPTIMIZATION
+================================================================================
+
+   Method: hybrid
+   Include regional multipliers: True
+   Number of trials: 1000000
+
+   📊 Hybrid breakdown:
+      • Random search: 500000 trials
+      • CMA-ES: 333333 iterations
+      • Simulated annealing: 1000000 iterations
+
+
+🔧 Hybrid optimization: Random search phase...
+   Random search:   4%|███                                                                    | 21199/500000 [00:02<00:49]   ✅ New best: 3.183052
+   Random search: 100%|██████████████████████████████████████████████████████████████████████| 500000/500000 [00:51<00:00]
+
+🔧 Hybrid optimization: CMA-ES phase...
+🔍 CMA-ES optimization:   0%|                                                     | 433/333333 [00:02<26:15, 211.24iter/s]
+
+🎯 CMA-ES finished
+   Best loss: 0.397236
+
+   📊 OPTIMIZATION SUMMARY:
+      Total iterations: 500434
+      Initial loss: 4.560246
+      Final loss: 0.397236
+      Best loss: 0.397236
+      Improvement: 91.3%
+      Best at iteration: 429
+
+🔧 Hybrid optimization: Simulated annealing phase...
+🔍 Simulated annealing: 100%|███████████████████████████████████████████████| 1000000/1000000 [9:48:25<00:00, 28.32iter/s]
+
+🎯 Simulated annealing finished
+   Best loss: 0.397236
+
+   📊 OPTIMIZATION SUMMARY:
+      Total iterations: 1500435
+      Initial loss: 4.560246
+      Final loss: 0.419122
+      Best loss: 0.397236
+      Improvement: 91.3%
+      Best at iteration: 429
+
+🎯 Hybrid optimization finished
+   Final best loss: 0.397236
+
+   📊 OPTIMIZATION SUMMARY:
+      Total iterations: 1500435
+      Initial loss: 4.560246
+      Final loss: 0.419122
+      Best loss: 0.397236
+      Improvement: 91.3%
+      Best at iteration: 429
+
+================================================================================
+✅ OPTIMIZATION COMPLETE
+================================================================================
+
+📊 Final optimized parameters:
+   alpha_fert: 0.899983
+   alpha_mort: 0.853326
+   alpha_urban: 0.600033
+   gamma_urban: 0.238521
+   delta_rural: 0.193676
+   delta_increase: 0.00933554
+
+   📍 Optimized Regional Multipliers:
+      EXTREME-NORD   : 0.9880
+      NORD           : 0.9540
+      ADAMAOUA       : 1.0083
+      OUEST          : 0.8614
+      SUD            : 0.9836
+      EST            : 1.0393
+      SUD-OUEST      : 0.9534
+      NORD-OUEST     : 0.9318
+      CENTRE         : 0.7418
+      LITTORAL       : 0.7032
+
+================================================================================
+
+   📊 OPTIMIZATION SUMMARY:
+      Total iterations: 1500435
+      Initial loss: 4.560246
+      Final loss: 0.419122
+      Best loss: 0.397236
+      Improvement: 91.3%
+      Best at iteration: 429
+
+   📈 Generating loss convergence plot...
+   💾 Convergence plot saved to: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/output/optimization_convergence.png
+
+💾 Saving optimization results...
+
+   ✅ Optimized parameters saved to /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/output/optimized_parameters.json
+
+================================================================================
+📊 OPTIMIZED PARAMETERS SUMMARY
+================================================================================
+
+📍 REGIONAL MULTIPLIERS:
+   EXTREME-NORD   : 0.988
+   NORD           : 0.954
+   ADAMAOUA       : 1.008
+   OUEST          : 0.861
+   SUD            : 0.984
+   EST            : 1.039
+   SUD-OUEST      : 0.953
+   NORD-OUEST     : 0.932
+   CENTRE         : 0.742
+   LITTORAL       : 0.703
+
+🎯 REGIONAL TARGETS (2026):
+   CENTRE         : 5,500,000
+   LITTORAL       : 4,300,000
+   EXTREME-NORD   : 4,500,000
+   NORD           : 3,100,000
+   NORD-OUEST     : 2,200,000
+   OUEST          : 2,100,000
+   SUD-OUEST      : 1,800,000
+   ADAMAOUA       : 1,400,000
+   EST            : 1,100,000
+   SUD            : 900,000
+
+⚖️ REGIONAL OPTIMIZATION WEIGHTS:
+   EXTREME-NORD   : 1.2
+   NORD           : 1.0
+   ADAMAOUA       : 0.8
+   OUEST          : 1.0
+   SUD            : 0.7
+   EST            : 0.6
+   SUD-OUEST      : 0.9
+   NORD-OUEST     : 0.8
+   CENTRE         : 2.0
+   LITTORAL       : 2.0
+
+⚙️ MODEL PARAMETERS:
+   alpha_fert: 0.899983336119433
+   alpha_mort: 0.853325550414244
+   alpha_urban: 0.6000334973152348
+   gamma_urban: 0.2385206515827651
+   delta_rural: 0.19367643995274722
+   delta_increase: 0.00933554314382269
+   city_factor_max: 3.0
+   city_factor_min: 0.5
+
+📈 PERIOD GROWTH RATES:
+   2005-2010: 2.87% annual
+   2010-2015: 2.97% annual
+   2015-2020: 2.86% annual
+   2020-2025: 2.68% annual
+
+🏙️ URBANIZATION TARGETS:
+   2005: 49.5%
+   2010: 52.4%
+   2015: 54.7%
+   2020: 57.0%
+   2025: 59.4%
+   2026: 59.8%
+   2030: 61.7%
+================================================================================
+
+================================================================================
+🏃 RUNNING FULL POPULATION SIMULATION
+================================================================================
+
+📂 Loading geospatial data:   0%|                                                                            | 0/9 [00:00]
+================================================================================
+🇨🇲 CAMEROON COMPLETE DATASET GENERATOR
+================================================================================
+
+================================================================================
+📊 DEMOGRAPHIC CONTEXT (UN World Population Prospects 2024)
+================================================================================
+
+   🇨🇲 Cameroon Population 2026: 30,640,817
+   📈 Growth 2005-2025: 75.0%
+   👶 Fertility rate: 4.18 children/woman (2025)
+   📊 Median age: 18.0 years (2025)
+   🏙️ Urban population: 59.4%
+   🏥 Life expectancy: 64.5 years (2026)
+================================================================================
+
+------------------------------------------------------------
+📁 STEP 1: Loading GeoBoundaries
+------------------------------------------------------------
+
+================================================================================
+📍 LOADING GEOSPATIAL DATA
+================================================================================
+2026-04-21 08:21:24,274 - core.geospatial_loader - INFO - Loading geospatial data...
+
+------------------------------------------------------------
+📁 STEP 1: Loading ADM1 - Regions
+------------------------------------------------------------
+🔍 Looking for ADM1 file at: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external/geoBoundaries-CMR-ADM1.geojson
+✅ ADM1 file found!
+📏 File size: 163.81 KB
+📊 Raw ADM1 GeoJSON loaded with 10 features
+
+📋 Raw ADM1 columns: ['shapeName', 'shapeISO', 'shapeID', 'shapeGroup', 'shapeType', 'geometry']
+
+🏷️ Raw shapeName values:
+   1. 'Centre'
+   2. 'Far North'
+   3. 'North'
+   4. 'North-West'
+   5. 'Adamaoua'
+   6. 'East'
+   7. 'South'
+   8. 'South-West'
+   9. 'West'
+   10. 'Littoral'
+
+✅ Processed ADM1: 10 regions
+
+📍 REGIONS with centroids:
+   1. CENTRE               | Lat: 4.6705, Lon: 11.8262
+   2. FAR NORTH            | Lat: 11.0737, Lon: 14.5193
+   3. NORTH                | Lat: 8.4589, Lon: 13.9307
+   4. NORTH-WEST           | Lat: 6.3738, Lon: 10.3716
+   5. ADAMAOUA             | Lat: 6.8257, Lon: 13.1332
+   6. EAST                 | Lat: 3.8034, Lon: 14.2105
+   7. SOUTH                | Lat: 2.7617, Lon: 11.5629
+   8. SOUTH-WEST           | Lat: 5.2040, Lon: 9.2948
+   9. WEST                 | Lat: 5.5144, Lon: 10.6512
+   10. LITTORAL             | Lat: 4.2704, Lon: 10.1305
+2026-04-21 08:21:24,637 - core.geospatial_loader - INFO - Loaded 10 regions from /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external/geoBoundaries-CMR-ADM1.geojson
+
+------------------------------------------------------------
+📁 STEP 2: Loading ADM2 - Departments
+------------------------------------------------------------
+🔍 Looking for ADM2 file at: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external/geoBoundaries-CMR-ADM2.geojson
+✅ ADM2 file found!
+📏 File size: 225.56 KB
+📊 Raw ADM2 GeoJSON loaded with 60 features
+
+📋 Raw ADM2 columns: ['shapeName', 'shapeISO', 'shapeID', 'shapeGroup', 'shapeType', 'geometry']
+
+🏷️ Raw shapeName values (first 15):
+   1. 'Djerem'
+   2. 'Faro-et-Deo'
+   3. 'Mayo-Banyo'
+   4. 'Mbere'
+   5. 'Vina'
+   6. 'Haute-Sanaga'
+   7. 'Lekie'
+   8. 'Mbam-et-Inoubou'
+   9. 'Mbam-et-Kim'
+   10. 'Mefou-et-Afamba'
+   11. 'Mefou-et-Akono'
+   12. 'Mfoundi'
+   13. 'Nyong-et-Kelle'
+   14. 'Nyong-et-Mfoumou'
+   15. 'Nyong-et-So'
+   ... and 45 more
+
+✅ Processed ADM2: 60 departments
+
+📍 DEPARTMENTS with centroids (first 20):
+   1. DJEREM                              | Lat: 6.4592, Lon: 12.7224
+   2. FARO-ET-DEO                         | Lat: 7.4459, Lon: 12.4611
+   3. MAYO-BANYO                          | Lat: 6.5699, Lon: 11.7290
+   4. MBERE                               | Lat: 6.4733, Lon: 14.2128
+   5. VINA                                | Lat: 7.1697, Lon: 13.6693
+   6. HAUTE-SANAGA                        | Lat: 4.6778, Lon: 12.5127
+   7. LEKIE                               | Lat: 4.1496, Lon: 11.4103
+   8. MBAM-ET-INOUBOU                     | Lat: 4.7312, Lon: 10.9660
+   9. MBAM-ET-KIM                         | Lat: 5.4288, Lon: 11.9900
+   10. MEFOU-ET-AFAMBA                     | Lat: 3.9590, Lon: 11.8050
+   11. MEFOU-ET-AKONO                      | Lat: 3.6085, Lon: 11.3664
+   12. MFOUNDI                             | Lat: 3.8085, Lon: 11.5128
+   13. NYONG-ET-KELLE                      | Lat: 3.7142, Lon: 10.8186
+   14. NYONG-ET-MFOUMOU                    | Lat: 3.8596, Lon: 12.3350
+   15. NYONG-ET-SO                         | Lat: 3.4036, Lon: 11.5476
+   16. BOUMBA-ET-NGOKO                     | Lat: 2.7926, Lon: 15.2525
+   17. HAUT-NYONG                          | Lat: 3.3378, Lon: 13.5841
+   18. KADEI                               | Lat: 4.2695, Lon: 14.3860
+   19. LOM-ET-DJEREM                       | Lat: 5.3256, Lon: 13.7653
+   20. DIAMARE                             | Lat: 10.6670, Lon: 14.3591
+   ... and 40 more departments
+2026-04-21 08:21:24,652 - core.geospatial_loader - INFO - Loaded 60 departments from /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external/geoBoundaries-CMR-ADM2.geojson
+
+------------------------------------------------------------
+📁 STEP 3: Loading ADM3 - Arrondissements
+------------------------------------------------------------
+🔍 Looking for ADM3 file at: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external/geoBoundaries-CMR-ADM3.geojson
+✅ ADM3 file found!
+📏 File size: 5001.00 KB
+📊 Raw ADM3 GeoJSON loaded with 360 features
+
+📋 Raw ADM3 columns: ['shapeName', 'shapeISO', 'shapeID', 'shapeGroup', 'shapeType', 'geometry']
+
+🏷️ Raw shapeName values (first 15):
+   1. 'Mbonge'
+   2. 'Magba'
+   3. 'MÃ©long'
+   4. 'FokouÃ©'
+   5. 'Bibemi'
+   6. 'Fonfuka'
+   7. 'Nwa'
+   8. 'Ambam'
+   9. 'BaschÃ©o'
+   10. 'Ngoura'
+   11. 'Dir'
+   12. 'Fundong'
+   13. 'Mayo-Oulo'
+   14. 'Bandja'
+   15. 'BangangtÃ©'
+   ... and 345 more
+
+✅ Processed ADM3: 360 arrondissements
+
+📍 ARRONDISSEMENTS with centroids (first 20):
+   1. MBONGE                                   | Lat: 4.4100, Lon: 9.1400
+   2. MAGBA                                    | Lat: 6.0714, Lon: 11.1428
+   3. MÃ©LONG                                  | Lat: 5.1641, Lon: 9.8821
+   4. FOKOUÃ©                                  | Lat: 5.3303, Lon: 10.1192
+   5. BIBEMI                                   | Lat: 9.3147, Lon: 13.9128
+   6. FONFUKA                                  | Lat: 6.5057, Lon: 10.4369
+   7. NWA                                      | Lat: 6.4933, Lon: 11.0241
+   8. AMBAM                                    | Lat: 2.4741, Lon: 11.2551
+   9. BASCHÃ©O                                 | Lat: 9.7896, Lon: 13.3637
+   10. NGOURA                                   | Lat: 4.8980, Lon: 14.1192
+   11. DIR                                      | Lat: 6.3386, Lon: 13.6833
+   12. FUNDONG                                  | Lat: 6.3163, Lon: 10.3013
+   13. MAYO-OULO                                | Lat: 10.0071, Lon: 13.6022
+   14. BANDJA                                   | Lat: 5.2638, Lon: 10.2231
+   15. BANGANGTÃ©                               | Lat: 5.1299, Lon: 10.6241
+   16. BIKOK                                    | Lat: 3.5483, Lon: 11.4274
+   17. MBANKOMO                                 | Lat: 3.7741, Lon: 11.3534
+   18. MALENTOUEN                               | Lat: 5.6813, Lon: 11.1294
+   19. BENAKUMA                                 | Lat: 6.4124, Lon: 9.8691
+   20. TOUBORO                                  | Lat: 7.6132, Lon: 15.0012
+   ... and 340 more arrondissements
+2026-04-21 08:21:24,858 - core.geospatial_loader - INFO - Loaded 360 arrondissements from /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external/geoBoundaries-CMR-ADM3.geojson
+
+------------------------------------------------------------
+📁 STEP 4: Loading WOF - Localities/Villages
+------------------------------------------------------------
+🔍 Looking for WOF shapefile at: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/external/whosonfirst-data-admin-cm-latest/whosonfirst-data-admin-cm-locality-point.shp
+✅ WOF shapefile found!
+📏 File size: 367.49 KB
+📊 Raw WOF shapefile loaded with 13436 features
+
+📋 Raw WOF columns: ['id', 'parent_id', 'name', 'placetype', 'placelocal', 'country', 'repo', 'lat', 'lon', 'min_lat', 'min_lon', 'max_lat', 'max_lon', 'min_zoom', 'max_zoom', 'min_label', 'max_label', 'modified', 'is_funky', 'population', 'country_id', 'region_id', 'county_id', 'concord_ke', 'concord_id', 'iso_code', 'hasc_id', 'gn_id', 'wd_id', 'name_ara', 'name_ben', 'name_deu', 'name_eng', 'name_ell', 'name_fas', 'name_fra', 'name_heb', 'name_hin', 'name_hun', 'name_ind', 'name_ita', 'name_jpn', 'name_kor', 'name_nld', 'name_pol', 'name_por', 'name_rus', 'name_spa', 'name_swe', 'name_tur', 'name_ukr', 'name_urd', 'name_vie', 'name_zho', 'geom_src', 'geometry']
+   ✅ Using 'name' column for village names
+   ✅ Using 'lat' and 'lon' columns for coordinates
+   ✅ Using 'region_id' for region mapping
+   ✅ Using 'county_id' for department mapping
+   ✅ Using 'placetype' for administrative level
+
+📊 WOF data structure:
+   - Village names present: 13,436 / 13436
+   - Coordinates present: 13,436 / 13436
+   - Region_WOF present: 12,571
+   - Department_WOF present: 12,532
+   - Arrondissement_WOF present: 13,436
+
+📝 Sample WOF records (first 10):
+   1. Village: BANDJOUN
+      Region ID: 85669961, Dept ID: 1092012225, Type: locality
+      Coords: (5.3788, 10.4182)
+
+   2. Village: MOUANGKO
+      Region ID: 85669937, Dept ID: 1092011153, Type: locality
+      Coords: (3.6397, 9.7769)
+
+   3. Village: WUM
+      Region ID: 85669941, Dept ID: 1092010619, Type: locality
+      Coords: (6.3833, 10.0667)
+
+   4. Village: KRIBI
+      Region ID: 85669971, Dept ID: 1092012139, Type: locality
+      Coords: (2.9500, 9.9167)
+
+   5. Village: MUYUKA
+      Region ID: 85669967, Dept ID: 1092010823, Type: locality
+      Coords: (4.2898, 9.4103)
+
+   6. Village: MUNDEMBA
+      Region ID: 85669967, Dept ID: 1092010791, Type: locality
+      Coords: (4.9479, 8.8724)
+
+   7. Village: MOKOLO
+      Region ID: 85669933, Dept ID: 1092011899, Type: locality
+      Coords: (10.7398, 13.8019)
+
+   8. Village: LOLODORF
+      Region ID: 85669971, Dept ID: 1092012139, Type: locality
+      Coords: (3.2333, 10.7333)
+
+   9. Village: KOZA
+      Region ID: 85669933, Dept ID: 1092011899, Type: locality
+      Coords: (10.8708, 13.8786)
+
+   10. Village: EDÉA
+      Region ID: 85669937, Dept ID: 1092011153, Type: locality
+      Coords: (3.8000, 10.1333)
+
+
+🗑️ Dropped 0 records without coordinates
+✅ Final WOF dataset: 13436 villages/localities with coordinates
+2026-04-21 08:21:25,355 - core.geospatial_loader - INFO - Loaded 13436 villages/localities from WOF
+
+================================================================================
+📊 GEOSPATIAL DATA LOADING SUMMARY
+================================================================================
+✅ ADM1 (Regions):            10 features
+✅ ADM2 (Departments):        60 features
+✅ ADM3 (Arrondissements):   360 features
+✅ WOF (Villages):        13,436 features
+================================================================================
+
+🔍 CREATING ARRONDISSEMENT-DEPARTMENT MAPPING:
+--------------------------------------------------
+📋 Need to map 360 arrondissements to 60 departments
+   (This requires spatial join or manual mapping)
+
+🔍 VERIFYING DEPARTMENT-REGION MAPPING:
+----------------------------------------
+
+📋 DEPARTMENT-REGION MAPPING SUMMARY:
+----------------------------------------
+   ADAMAOUA        : 5 departments
+   CENTRE          : 10 departments
+   EST             : 4 departments
+   EXTREME-NORD    : 6 departments
+   LITTORAL        : 4 departments
+   NORD            : 4 departments
+   NORD-OUEST      : 7 departments
+   OUEST           : 8 departments
+   SUD             : 4 departments
+   SUD-OUEST       : 6 departments
+📋 Department-region mapping has 58 departments across 10 regions
+
+✅ All 58 ADM2 departments found in mapping
+
+================================================================================
+✅ GEOSPATIAL DATA LOADING COMPLETE
+================================================================================
+
+
+------------------------------------------------------------
+📍 STEP 2: Loading WOF Villages
+------------------------------------------------------------
+
+============================================================
+📍 LOADING WOF LOCALITIES
+============================================================
+✅ Loaded 13,436 villages from WOF
+
+------------------------------------------------------------
+📍 STEP 3: Spatial Assignment to Departments
+------------------------------------------------------------
+
+============================================================
+📍 SPATIAL ASSIGNMENT: VILLAGES → DEPARTMENTS
+============================================================
+   Matching 13,436 villages to 60 departments...
+   Spatial matching: 100%|████████| 13436/13436 [00:03<00:00, 3734.07villages/s]
+   Spatial matching:  99%|███████▉| 13235/13436 [00:03<00:00, 3682.29villages/s]
+   ✅ Matched 13,436 / 13,436 villages (100.0%)
+
+------------------------------------------------------------
+📍 STEP 4: Spatial Assignment to Arrondissements
+------------------------------------------------------------
+
+============================================================
+📍 SPATIAL ASSIGNMENT: VILLAGES → ARRONDISSEMENTS
+============================================================
+   Matching 13,436 villages to 360 arrondissements...
+   Spatial matching: 100%|████████| 13436/13436 [00:11<00:00, 1216.95villages/s]
+   Spatial matching:  99%|███████▉| 13354/13436 [00:10<00:00, 1221.46villages/s]
+   ✅ Matched 13,436 / 13,436 villages (100.0%)
+/Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/src/core/generate_dataset.py:179: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df["Lat_Arrondissement"] = df["Lat_Arrondissement"].fillna(df["Lat_Department"])
+/Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/src/core/generate_dataset.py:180: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df["Lon_Arrondissement"] = df["Lon_Arrondissement"].fillna(df["Lon_Department"])
+
+------------------------------------------------------------
+📍 STEP 5: Assigning Regions
+------------------------------------------------------------
+
+============================================================
+📍 ASSIGNING REGIONS TO VILLAGES
+============================================================
+
+📋 DEPARTMENT-REGION MAPPING SUMMARY:
+----------------------------------------
+   ADAMAOUA        : 5 departments
+   CENTRE          : 10 departments
+   EST             : 4 departments
+   EXTREME-NORD    : 6 departments
+   LITTORAL        : 4 departments
+   NORD            : 4 departments
+   NORD-OUEST      : 7 departments
+   OUEST           : 8 departments
+   SUD             : 4 departments
+   SUD-OUEST       : 6 departments
+
+   ✅ Assigned regions to 13,436 / 13,436 villages (100.0%)
+
+------------------------------------------------------------
+👥 STEP 6: Population Distribution (2005 Census)
+------------------------------------------------------------
+
+============================================================
+👥 DISTRIBUTING 2005 POPULATION (Arrondissement Level)
+============================================================
+   Distributing by arrondissement: 100%|█| 361/361 [00:01<00:00, 258.97arr/s, ✓
+   Distributing by arrondissement: 100%|▉| 360/361 [00:01<00:00, 251.74arr/s, ✓
+   ✅ Matched 251 / 361 arrondissements
+
+📊 TOTAL 2005 POPULATION: 11,763,368
+   Expected (UN 2005): 17,074,594
+
+   Scaling to match UN target (factor: 1.452)
+
+------------------------------------------------------------
+📈 STEP 7: Hierarchical Population Simulation (2005-2025)
+------------------------------------------------------------
+
+   🌾 Initializing village characteristics...
+
+================================================================================
+🏛️ BOTTOM-UP HIERARCHICAL POPULATION SIMULATION
+================================================================================
+
+   Mathematical Framework:
+   • Level 4: Village model (rural decline + urban growth)
+   • Level 3: Arrondissement (aggregation + 2010 census calibration)
+   • Level 2: Department (aggregation)
+   • Level 1: Region (demographic factors × multiplier)
+   • Level 0: National (UN target constraint)
+
+============================================================
+👥 DISTRIBUTING 2005 POPULATION TO VILLAGES
+============================================================
+   Distributing by arrondissement: 100%|██████████████████████████████████████████████| 361/361 [00:01<00:00, 268.59arr/s]
+   Distributing by arrondissement:  96%|████████████████████████████████████████████▎ | 348/361 [00:01<00:00, 260.50arr/s]
+   ✅ Matched 237 / 361 arrondissements
+   📊 TOTAL 2005 POPULATION: 11,427,370
+
+   Scaling to match UN target (factor: 1.494)
+
+📈 Running bottom-up hierarchical simulation:
+
+   📊 Calibrating with 2010 census data...            | 0/4 [00:00<?, ?period/s]
+      Using 323 arrondissement records
+   Applying 2010 data: 100%|██████████████████████████████████████████████████████████| 323/323 [00:00<00:00, 391.49arr/s]
+      ✅ Calibrated 199 / 323 arrondissements
+   Simulating: 100%|███████████████| 4/4 [00:06<00:00,  1.58s/period, 2020→2025]█████ | 318/323 [00:00<00:00, 389.14arr/s]
+   Simulating: 100%|███████████████| 4/4 [00:06<00:00,  1.49s/period, 2020→2025]
+   🏙️ Applying city constraints...
+      YAOUNDE: 4,789 → 7,184 (λ=1.500)
+      GAROUA: 94,161 → 141,240 (λ=1.500)
+      MAROUA: 42,414 → 63,620 (λ=1.500)
+      NGAOUNDERE: 2,625 → 3,938 (λ=1.500)
+      KUMBA: 21,337 → 32,004 (λ=1.500)
+      BAFOUSSAM: 13,880 → 20,820 (λ=1.500)
+      BERTOUA: 22,717 → 34,076 (λ=1.500)
+      LIMBE: 506 → 759 (λ=1.500)
+      BUEA: 9,196 → 13,794 (λ=1.500)
+      MOKOLO: 3,185 → 4,778 (λ=1.500)
+      GUIDER: 3,395 → 5,092 (λ=1.500)
+      FOUMBAN: 4,662 → 6,992 (λ=1.500)
+
+============================================================
+✅ VALIDATION RESULTS
+============================================================
+
+   📊 National Population Validation:
+      ✅ 2005:   17,074,687 vs UN   17,074,594 (diff: 0.0%)
+      ✅ 2010:   19,668,083 vs UN   19,668,066 (diff: 0.0%)
+      ✅ 2015:   22,763,212 vs UN   22,763,414 (diff: 0.0%)
+      ✅ 2020:   26,210,538 vs UN   26,210,558 (diff: 0.0%)
+      ✅ 2025:   29,879,504 vs UN   29,879,337 (diff: 0.0%)
+
+   📊 Regional Validation (2025):
+      ⚠️ CENTRE         :    2,613,141 vs    5,500,000 (diff: 52.5%)
+      ⚠️ LITTORAL       :    8,253,745 vs    4,300,000 (diff: 91.9%)
+      ✅ EXTREME-NORD   :    4,891,814 vs    4,500,000 (diff: 8.7%)
+      ✅ NORD           :    2,899,355 vs    3,100,000 (diff: 6.5%)
+      ✅ NORD-OUEST     :    2,324,619 vs    2,200,000 (diff: 5.7%)
+      ⚠️ OUEST          :    3,715,536 vs    2,100,000 (diff: 76.9%)
+      ⚠️ SUD-OUEST      :    2,227,616 vs    1,800,000 (diff: 23.8%)
+      ⚠️ ADAMAOUA       :      921,588 vs    1,400,000 (diff: 34.2%)
+      ✅ EST            :      962,257 vs    1,100,000 (diff: 12.5%)
+      ✅ SUD            :    1,069,833 vs      900,000 (diff: 18.9%)
+
+   🏙️ Urbanization Validation:
+      ✅ 2005: 50.7% vs 49.5% (diff: 2.4%)
+      ✅ 2010: 55.8% vs 52.4% (diff: 6.4%)
+      ✅ 2015: 55.8% vs 54.7% (diff: 2.0%)
+      ✅ 2020: 55.8% vs 57.0% (diff: 2.0%)
+      ✅ 2025: 56.0% vs 59.4% (diff: 5.8%)
+
+   ⚠️ Some validation checks exceeded thresholds.
+
+------------------------------------------------------------
+📮 STEP 8: Generating Postal Codes
+------------------------------------------------------------
+2026-04-21 08:21:50,215 - core.postal_codes - INFO - Generating postal codes...
+2026-04-21 08:21:50,797 - core.postal_codes - INFO - Generated 611 unique postal codes
+
+------------------------------------------------------------
+🏗️ STEP 9: Building Hierarchy
+------------------------------------------------------------
+2026-04-21 08:21:50,797 - core.hierarchy_builder - INFO - Building hierarchical structure...
+2026-04-21 08:21:51,162 - core.hierarchy_builder - INFO - Built hierarchy with 10 regions
+
+------------------------------------------------------------
+✅ STEP 10: Validation
+------------------------------------------------------------
+2026-04-21 08:21:51,171 - core.validator - INFO - Total records: 13,436
+2026-04-21 08:21:51,171 - core.validator - INFO - Villages with coordinates: 13,436 (100.0%)
+2026-04-21 08:21:51,171 - core.validator - INFO - Unique postal codes: 611
+2026-04-21 08:21:51,171 - core.validator - INFO - Postal code format valid: True
+2026-04-21 08:21:51,171 - core.validator - WARNING - Issues found: ["Missing values found: {'Lat_Region': 9784, 'Lon_Region': 9784}"]
+
+------------------------------------------------------------
+💾 STEP 11: Exporting Data
+------------------------------------------------------------
+                                                                                2026-04-21 08:21:51,291 - core.data_exporter - INFO - Exported CSV to /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/output/cameroon_complete_dataset.csv
+                                                                                2026-04-21 08:21:51,568 - core.data_exporter - INFO - Exported JSON to /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/output/cameroon_hierarchy.json
+                                                                                2026-04-21 08:21:51,798 - core.data_exporter - INFO - Exported 5 year-specific files<00:00,  4.72task/s, ✓ JSON hierarchy]
+                                                                                2026-04-21 08:21:51,805 - core.data_exporter - INFO - Exported summary to /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/output/summary.json
+   Exporting: 100%|████████| 5/5 [00:00<00:00,  7.76task/s, ✓ Report generation]
+   Exporting:  80%|██████▍ | 4/5 [00:00<00:00,  4.55task/s, ✓ Report generation]
+   📊 Generating additional summaries...
+
+   ✅ Optimized parameters saved to /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/output/optimized_parameters.json
+
+================================================================================
+🎉 GENERATION COMPLETE!
+================================================================================
+
+📁 OUTPUT DIRECTORY: /Volumes/Intenso/my_work_spaces/cameroon-administrative-data-platform/data/output
+
+📄 FILES GENERATED:
+   • cameroon_complete_dataset.csv
+   • cameroon_hierarchy.json
+   • population_2005.csv, population_2010.csv, population_2015.csv, population_2020.csv, population_2025.csv
+   • population_report.csv
+   • summary.json
+   • summary_by_region.csv
+   • summary_by_department.csv
+   • summary_by_arrondissement.csv
+   • optimized_parameters.json
+
+📊 DATASET STATISTICS:
+   • Villages: 13,436
+   • Regions: 10
+   • Departments: 58
+   • Arrondissements: 360
+   • Unique postal codes: 611
+   • Population 2005: 17,074,687 (UN: 17,074,594)
+   • Population 2025: 29,879,504 (UN: 29,879,337)
+   • Growth 2005-2025: 75.0%
+✅ Complete: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:27]
+
+⏱️  Simulation completed in 27.6 seconds
+
+🎉 Full simulation completed successfully!
+
+📊 Quick Validation Summary:

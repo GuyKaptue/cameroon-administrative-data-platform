@@ -1,0 +1,93 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# -------------------------
+# OS / Editor
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------
+# Geo / GIS files
+# -------------------------
+*.aux.xml
+*.cpg
+*.dbf
+*.prj
+*.qpj
+*.shp
+*.shx
+*.gpkg
+*.geojson~
+*.lock
+
+# -------------------------
+# Project data folders
+# -------------------------
+
+# Ignore raw and processed data
+data/raw/*
+data/processed/*
+data/external/whosonfirst-data-admin-cm-latest/*
+
+# Keep important raw PDFs and GeoBoundaries
+!data/raw/*.pdf
+!data/external/geoBoundaries-CMR-ADM1.geojson
+!data/external/geoBoundaries-CMR-ADM2.geojson
+!data/external/geoBoundaries-CMR-ADM3.geojson
+
+# -------------------------
+# OUTPUT — KEEP EVERYTHING
+# -------------------------
+# Allow all simulation outputs
+!data/output/
+!data/output/**
+
+# -------------------------
+# Build / Packaging
+# -------------------------
+dist/
+build/
+*.whl
+*.tar.gz
+
+# -------------------------
+# Reports / Exports
+# -------------------------
+# Allow CSV/JSON/XLSX/PNG in output folder
+# but ignore them globally elsewhere
+*.csv
+*.json
+*.xlsx
+*.png
+*.parquet
+
+# Keep output files
+!data/output/*.csv
+!data/output/*.json
+!data/output/*.xlsx
+!data/output/*.png
+!data/output/*.txt
+!data/output/*.parquet
