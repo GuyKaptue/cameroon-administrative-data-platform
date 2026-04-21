@@ -9,12 +9,16 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 #### [🌍 Launch Interactive Dashboard](https://cameroon-appistrative-data-platform-kr49wgnoumxmm8vfqr4gpv.streamlit.app/)
-
-**A production-grade geospatial intelligence platform that simulates 20 years of population dynamics (2005–2025) across 13,000+ Cameroonian villages, generates hierarchical 5-digit postal codes, and delivers interactive dashboards for policymakers, urban planners, and logistics operators.**
+*Click above to explore the full dashboard with 10 analytical tabs, hierarchical filters, and interactive maps*
 
 [![Full Documentation](https://img.shields.io/badge/Full_Technical_Report-PDF-blue)](docs/technical_report.pdf)
 *Click above to explore the full dashboard with 10 analytical tabs, hierarchical filters, and interactive maps*
+
 </div>
+
+**A production-grade geospatial intelligence platform that simulates 20 years of population dynamics (2005–2025) across 13,000+ Cameroonian villages, generates hierarchical 5-digit postal codes, and delivers interactive dashboards for policymakers, urban planners, and logistics operators.**
+
+
 ---
 
 ## Table of Contents
